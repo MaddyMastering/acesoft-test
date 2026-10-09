@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: MaddyMastering/acesoft-test
+  name: turbo-github
+  repo: maddymastering/acesoft-test
   branch: main
 
 media_folder: "images/blog"
