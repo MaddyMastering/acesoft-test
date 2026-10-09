@@ -2,6 +2,7 @@ backend:
   name: turbo-github
   repo: maddymastering/acesoft-test
   branch: main
+  turbo_site_id: 55121387-fc95-4daa-9386-bba8cbdeef91
 
 media_folder: "images/blog"
 public_folder: "/images/blog"
@@ -35,3 +36,5 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+
+        
