@@ -279,14 +279,64 @@
     </header>
 
     <div class="container">
-        <h1>TODO PAGE - YET TO BE DESIGNED</h1>
+        <section id="blog-list">
+            <p>Loading blogs...</p>
+        </section>
 
-        <br />
-        <br />
-        <a href="./my-first-blog"> Link to my first blog </a> <br />
-        <a href="./my-test-blog.md"> Link to my 2 blog </a><br />
-        <a href="./my-first-blog"> Link to my 3 blog </a><br />
-        <a href="./my-first-blog"> Link to my 4 blog </a><br />
+        <script>
+            async function loadBlogs() {
+                const container = document.getElementById("blog-list");
+
+                try {
+                    const response = await fetch("/acesoft-test/blog-list.json");
+
+                    if (!response.ok) {
+                        throw new Error("Failed to load blog list");
+                    }
+
+                    const blogs = await response.json();
+
+                    if (!blogs.length) {
+                        container.innerHTML = "<p>No blog posts published yet.</p>";
+                        return;
+                    }
+
+                    container.innerHTML = blogs.map(blog => `
+            <article class="blog-card">
+                <h2>
+                    <a href="/acesoft-test${blog.url}">
+                        ${escapeHtml(blog.title)}
+                    </a>
+                </h2>
+
+                ${blog.date ? `<p>${escapeHtml(blog.date)}</p>` : ""}
+
+                ${blog.description
+                            ? `<p>${escapeHtml(blog.description)}</p>`
+                            : ""}
+
+                <a href="/acesoft-test${blog.url}">Read more →</a>
+            </article>
+        `).join("");
+
+                } catch (error) {
+                    console.error("Error loading blogs:", error);
+                    container.innerHTML = "<p>Unable to load blogs.</p>";
+                }
+            }
+
+            function escapeHtml(value) {
+                return String(value ?? "").replace(/[&<>"']/g, char => ({
+                    "&": "&amp;",
+                    "<": "&lt;",
+                    ">": "&gt;",
+                    '"': "&quot;",
+                    "'": "&#39;"
+                })[char]);
+            }
+
+            loadBlogs();
+        </script>
     </div>
 
     <div class="footer-divider"></div>
@@ -314,9 +364,9 @@
                         <div class="content">
                             <p>
                                 <b>Acesoft Labs (India) Pvt. Ltd.</b>
-                                <br />60 Zenith Square 
+                                <br />60 Zenith Square
                                 <br />Marathahalli Outer Ring Rd
-                                <br />R.J. Gardens, Anand Nagar 
+                                <br />R.J. Gardens, Anand Nagar
                                 <br />Aswath Nagar, Chinnapannahalli
                                 <br />Bengaluru 560037, Karnataka
                             </p>
@@ -331,7 +381,7 @@
                                 <br />PO BOX: 342001, Dubai
                                 <br />United Arab Emirates
                                 <br />+971 56 232 9839
-                                
+
                             </p>
                         </div>
                     </div>

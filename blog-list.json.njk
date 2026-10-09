@@ -1,0 +1,10 @@
+[
+{% for post in collections.blog | reverse %}
+{
+"title": {{ post.data.title | dump | safe }},
+"description": {{ post.data.description | dump | safe }},
+"date": {{ post.data.date | dump | safe }},
+"url": {{ post.url | dump | safe }}
+}{% if not loop.last %},{% endif %}
+{% endfor %}
+]

@@ -32,7 +32,7 @@ module.exports = function (eleventyConfig) {
 
     // Blog collection
     eleventyConfig.addCollection("blog", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("content/blog/*.md");
+        return collectionApi.getFilteredByGlob("blog/*.md");
     });
 
 
