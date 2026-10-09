@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#FCD30B" />
+    <meta name="description" content="Acesoft Labs application">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/offerings.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <link rel="stylesheet" href="../css/tabs.css" />
+    <link rel="stylesheet" href="../css/accordion.css" />
+
+    <title>Acesoft</title>
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <header>
+        <nav class="navigation">
+            <a href="../index.html" class="logo">
+                <img alt="image" loading="lazy" src="../images/logo.svg" />
+            </a>
+
+            <ul>
+                <li class="has-submenu flex-center">
+                    <a href="../offerings/cloud-solutions.html">Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu">
+                        <div class="submenu-items">
+                            <a href="../offerings/enterprise-software.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Enterprise Software Development</b></p>
+
+                                </div>
+                            </a>
+
+                            <a href="../offerings/cloud-solutions.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Cloud Computing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../offerings/data-and-ai-driven-bussiness.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Data & AI-Driven Business Insights</b></p>
+                                </div>
+                            </a>
+                            <a href="../offerings/engineering-services.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Engineering Services (Embedded & Semiconductor)</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../offerings/professional-services.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Professional Services</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../offerings/global-delivery-center.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Global Captive Center (GCC)</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="has-submenu flex-center">
+                    <a href="../products.html">Products</a>
+                </li>
+
+                <li class="has-submenu flex-center"><a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu" style="transform: translate(30%, 0);">
+                        <div class="submenu-items">
+                            <a href="./manufacturing.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-manufacturing.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Manufacturing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./energy-and-utilities.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Energy & Utilities</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./oil-and-gas-industries.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-oil-gas.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Oil & Gas</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./logistics.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-logistics.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Logistics</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./bfsi.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>BFSI</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="flex-center"><a href="../about-us.html">About Us</a></li>
+                <li class="flex-center"><a href="../career.html">Careers</a></li>
+                <li class="flex-center">
+                    <button onclick="gotoContact()">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+                </li>
+            </ul>
+
+            <div class="mobile-only">
+                <div class="mobile-header">
+                    <button onclick="gotoContact()" class="go-to-contact">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+
+                    <div class="mobile-wrapper">
+                        <a class="mobile-hamburger" onclick="toggleMobileMenu()"><img
+                                src="../images/icons/menu.svg" /></a>
+
+                        <div id="mobile-menu" class="mobile-menu">
+                            <ul>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                            </div>
+                                            <a href="../offerings/enterprise-software.html">Enterprise Software</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                            </div>
+                                            <a href="../offerings/cloud-solutions.html">Cloud Computing</a>
+                                        </li>
+
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                            </div>
+                                            <a href="../offerings/data-and-ai-driven-bussiness.html">Data & AI-Driven
+                                                Business Insights</a>
+                                        </li>
+
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                            </div>
+                                            <a href="../offerings/engineering-services.html">Engineering Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                            </div>
+                                            <a href="../offerings/professional-services.html">Professional Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                            </div>
+                                            <a href="../offerings/global-delivery-center.html">Global Delivery Control
+                                                (GDC)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../products.html">Products</a></li>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-manufacturing.svg" />
+                                            </div>
+                                            <a href="./manufacturing.html">Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                            </div>
+                                            <a href="./energy-and-utilities.html">Energy & Utilities</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-oil-gas.svg" />
+                                            </div>
+                                            <a href="./oil-and-gas-industries.html">Oil & Gas Industries</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-logistics.svg" />
+                                            </div>
+                                            <a href="./logistics.html">Logistics</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                            </div>
+                                            <a href="./bfsi.html">BFSI</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../about-us.html">About Us</a></li>
+                                <li><a href="../career.html">Career</a></li>
+                                <li class="on-smallest-device"><a onclick="gotoContact()">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome-banner">
+        <div class="welcome-text">
+            <h1>Drive Financial Innovation <br />with Intelligent Technology Solutions</h1>
+        </div>
+
+        <div class="welcome-image">
+            <img alt="image" loading="lazy" src="../images/welcome-banner/bfsi.svg" />
+        </div>
+    </div>
+
+    <div class="intro-bg">
+        <div class="container">
+            <div class="introduction">
+                <div class="highlight" style="grid-template-columns: 1.5fr 2fr;">
+                    <h1>Smart, Secure, and Scalable BFSI Transformation</h1>
+                    <h3>Empower your financial operations with future-ready infrastructure and end-to-end digital platforms.
+Acesoft helps BFSI enterprises modernize legacy systems, ensure compliance, and accelerate innovation-without disrupting critical services.
+
+From automation and analytics to cloud and core system upgrades, we deliver secure, customer-centric solutions that drive measurable impact in a fast-evolving financial landscape.</h3>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="tab1">
+                            <!-- <span>01</span> -->
+                            <h3>Digital Innovation for Modern Finance</h3>
+                        </button>
+                        <button class="tab-button" data-tab="tab2">
+                            <!-- <span>02</span> -->
+                            <h3>Next-Gen Tech for Modern BFSI</h3>
+                        </button>
+                        <button class="tab-button" data-tab="tab3">
+                            <!-- <span>03</span> -->
+                            <h3>Smart Finance Built Around the Customer</h3>
+                        </button>
+                        <button class="tab-button" data-tab="tab4">
+                            <!-- <span>05</span> -->
+                            <h3>Build the Future of Banking with Acesoft</h3>
+                        </button>
+                    </div>
+
+                    <div class="tab-content active" id="tab1">
+                        <h3>We enables banks, financial institutions, and insurance providers to modernize their operations through secure, scalable, and intelligent digital infrastructure. Our end-to-end platforms streamline core processes, enhance customer experiences, and ensure regulatory compliance-helping you stay agile in a rapidly evolving financial landscape. From core banking transformation to digital lending, payments, and fraud prevention, we build future-ready systems designed for measurable impact.</h3>
+                    </div>
+
+                    <div class="tab-content" id="tab2">
+                        <h3>Modernize legacy systems, ensure compliance, and accelerate innovation in a fast-changing financial landscape.</h3>
+                        <h3>The BFSI industry is undergoing a major digital transformation. Financial institutions are steadily increasing investments in automation, data analytics, cloud computing, and modern software infrastructure. Technology is no longer optional - it is critical for delivering secure, compliant, and customer-first experiences.</h3>
+
+                        <h3>Yet, the path to modernization is complex. Legacy systems must be upgraded without disrupting
+                    services. Security and regulatory compliance must be maintained across digital channels. And above
+                    all, technology investments must drive measurable value.</h3>
+
+                        <h3><b>Acesoft is a trusted BFSI technology partner</b>, delivering tailored digital transformation strategies
+                    with real impact. From seamless integration to complex platform development, we prioritize clarity,
+                    compliance, and long-term value.</h3>
+
+                        <h3><b>Our BFSI capabilities include:</b></h3>
+                        <ol>
+                            <li>Legacy system modernization with minimal risk</li>
+                            <li>Secure, cloud-native platform implementation</li>
+                            <li>AI & ML-driven analytics for smarter decision-making</li>
+                            <li>Real-time transaction and reporting engines</li>
+                            <li>Robust cybersecurity and fraud detection systems</li>
+                        </ol>
+                    </div>
+
+                    <div class="tab-content" id="tab3">
+                        <h3>From fintech modernization to risk and compliance automation, we engineer BFSI systems that
+                        deliver business value.</h3>
+
+                        <h3>We help financial organizations build agile, secure, and scalable digital
+                        infrastructure centeredaround business outcomes. Whether your goals are compliance,
+                        cost-efficiency, or enhanced customer experience - we deliver technology as a strategic enabler.
+                    </h3>
+
+                        <br />
+                        <h3><b>Fintech Innovation</b></h3>
+                        <h3>We simplify complex financial workflows through automation, intelligent data flows, and
+                        user-centric design. From digital payments to automated loan processing, our platforms drive
+                        accuracy, speed, and transparency.</h3>
+
+                        <br />
+                        <h3><b>Highlights:</b></h3>
+                        <ul>
+                            <li>Continuous data validation for real-time accuracy</li>
+                            <li>Streamlined workflows that reduce friction</li>
+                            <li>Interfaces designed for usability, not complexity</li>
+                        </ul>
+
+                        <br /><br />
+                        <h3><b>Banking Transformation</b></h3>
+                        <h3>We help banks move away from manual, paper-heavy systems to digital-first environments. From
+                        teller automation to digital onboarding, we reduce customer wait times and improve operational
+                        flow.</h3>
+
+                        <br />
+                        <h3><b>Results Delivered:</b></h3>
+                        <ul>
+                            <li>Improved operational efficiency</li>
+                            <li>Lower cost per transaction</li>
+                            <li>Unified digital experiences across channels</li>
+                        </ul>
+
+                        <br /><br />
+                        <h3><b>Risk Mitigation Tools</b></h3>
+                        <h3>Risk isn't secondary - it's strategic. We deliver powerful tools that identify, analyze, and
+                        mitigate risks in real time.</h3>
+
+                        <br />
+                        <h3><b>Solutions include:</b></h3>
+                        <ul>
+                            <li>Credit scoring engines for borrower assessment</li>
+                            <li>Market risk models</li>
+                            <li>Stress testing for financial system resilience</li>
+                            <li>Operational and compliance risk tracking systems</li>
+                        </ul>
+
+                        <br /><br />
+                        <h3><b>Financial Compliance Systems</b></h3>
+                        <h3>Stay ahead of changing regulations with compliance solutions that automate tracking, reporting,
+                        and resolution - freeing teams to focus on governance and insight.</h3>
+
+                        <br />
+                        <h3><b>Key Features:</b></h3>
+                        <ul>
+                            <li>Real-time dashboards with audit trails</li>
+                            <li>Automated workflows and alerts</li>
+                            <li>Configurable compliance triggers</li>
+                            <li>Regulatory readiness across systems</li>
+                        </ul>
+                    </div>
+
+                    <!-- <div class="tab-content" id="tab4">
+                        <h3>Combine domain expertise, agile execution, and regulatory alignment to unlock the full potential of your financial enterprise.</h3>
+                        <h3>We're more than a software provider - we're a technology partner with deep domain knowledge in the BFSI space. Our strength lies in blending financial expertise with engineering excellence to help clients scale securely and efficiently.</h3>
+
+                        <br />
+                        <h3><b>Why Leading Financial Institutions Choose Acesoft:</b></h3>
+                        <ol>
+                            <li><b>Domain-Aligned Teams</b>: Experts trained in financial workflows, regulatory
+                                standards,
+                                and data security.</li>
+                            <li><b>End-to-End Ownership</b>: We take full responsibility - from discovery to deployment
+                                and
+                                beyond.</li>
+                            <li><b>Scalable Architecture</b>: Modular platforms designed for growth and cross-platform
+                                integration.</li>
+                            <li><b>Agile, Transparent Delivery</b>: Sprint-based execution with measurable checkpoints
+                                and
+                                stakeholder visibility.</li>
+                            <li><b>Compliance-Embedded Design</b>: Built-in privacy, access control, and audit readiness
+                                from day one.</li>
+                        </ol>
+                    </div> -->
+
+                    <div class="tab-content" id="tab4">
+                        <h3><b>Scale with confidence using intelligent platforms built for resilience, compliance, and customer experience.</b></h3>
+                        <h3>Today's financial institutions must move faster, deliver more personalized experiences, and meet ever-evolving compliance demands - all without sacrificing security or stability.</h3>
+
+                        <br />
+                        <h3><b>Acesoft enables this transformation</b></h3>
+                        <h3>Through proven platforms, intelligent automation, and modular solutions, we help you modernize legacy systems, reduce manual effort, and embed analytics into decision-making - seamlessly.</h3>
+                        <h3>Whether you're launching a new fintech product, optimizing operations, or upgrading your compliance infrastructure, Acesoft has the tools, talent, and strategy to make it happen.</h3>
+
+                        <br />
+                        <h3><b>Connect with our BFSI technology experts today</b></h3>
+                        <h3>Let's build the future of finance together.</h3>
+                    </div>
+                </div>
+
+                <h2>Why Acesoft ?</h2>
+                <h3>We combine deep BFSI domain expertise with advanced technology to help banks, insurers, and financial institutions thrive in a digital-first world. We blend financial insight with engineering excellence to deliver secure, scalable solutions-designed to meet regulatory demands, strengthen security, and drive customer-centric innovation.</h3>
+
+                <h3>Core Strengths:</h3>
+                <ul class="arrow-list" style="margin-bottom: 1rem;">
+                    <li><b>Proven BFSI Experience</b> - Decades of work with global financial institutions</li>
+                    <li><b>Security-First Architecture</b> - Built-in compliance and risk controls</li>
+                    <li><b>Scalable Platforms</b> - From core modernization to cloud-native digital banking</li>
+                    <li><b>Faster Time to Value</b> - Agile delivery with measurable business outcomes</li>
+                    <li><b>Customer-Centric Approach</b> - Solutions designed around real user needs</li>
+                </ul>
+
+                <h3>Our BFSI capabilities include:</h3>
+                <ul class="arrow-list">
+                    <li>Legacy system modernization with minimal risk</li>
+                    <li>Secure, cloud-native platform implementation</li>
+                    <li>AI & ML-driven analytics for smarter decision-making</li>
+                    <li>Real-time transaction and reporting engines</li>
+                    <li>Robust cybersecurity and fraud detection systems</li>
+                </ul>
+
+                <h2>Choose a Customer-Centric Model for Your Business Requirements</h2>
+                <h3>We help BFSI organizations build reliable and scalable infrastructure with customer-centric workflows. Every solution is aligned with a measurable business goal. From compliance to cost reduction, our goal is to ensure technology becomes a strategic advantage, not just a supporting system.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="digital-transformation-banner">
+        <h1>Trusted Partner in Digital Transformation</h1>
+        <h3>We deliver digital transformation services that drive intelligent growth, rapid innovation and tangible results.</h3>
+
+        <button onclick="gotoContact()">Contact Us
+            <span><img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"></span>
+        </button>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="image" loading="lazy" src="../images/footer-logo.svg" />
+            </div>
+
+            <div class="footer-info">
+                <div class="address">
+                    <div>
+                        <div class="heading">Contact</div>
+                        <div class="content">
+                            <p>Tel: +91 80 25008900
+                                <br />+91-9900045283
+                                <br />Email: info@Acesoftlabs.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">India</div>
+                        <div class="content">
+                            <p>
+                                <b>Acesoft Labs (India) Pvt. Ltd.</b>
+                                <br />60 Zenith Square 
+                                <br />Marathahalli Outer Ring Rd
+                                <br />R.J. Gardens, Anand Nagar 
+                                <br />Aswath Nagar, Chinnapannahalli
+                                <br />Bengaluru 560037, Karnataka
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">UAE</div>
+                        <div class="content">
+                            <p><b>Acesoft Technologies-FZCO</b>
+                                <br />IFZA Business Park DDP
+                                <br />PO BOX: 342001, Dubai
+                                <br />United Arab Emirates
+                                <br />+971 56 232 9839
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">USA</div>
+                        <div class="content">
+                            <p><b>Acesoft Solution Inc</b>
+                                <br />16192, COASTAL HWYLEWES
+                                <br />DE 19958
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <div>
+                        <div class="heading">Services</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../offerings/enterprise-software.html">Enterprise Software Development</a>
+                                </li>
+                                <li><a href="../offerings/cloud-solutions.html">Cloud Computing</a></li>
+                                <li><a href="../offerings/data-and-ai-driven-bussiness.html">Data & AI-Driven Business
+                                        Insights</a></li>
+                                <li><a href="../offerings/engineering-services.html">Engineering Services</a></li>
+                                <li><a href="../offerings/professional-services.html">Professional Services</a></li>
+                                <li><a href="../offerings/global-delivery-center.html">Global Captive Center (GCC)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Industries</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./bfsi.html">BFSI</a></li>
+                                <li><a href="./energy-and-utilities.html">Energy & Utilities</a></li>
+                                <li><a href="./manufacturing.html">Manufacturing</a></li>
+                                <li><a href="./oil-and-gas-industries.html">Oil & Gas</a></li>
+                                <li><a href="./logistics.html">Logistics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Careers</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../career.html#why">Why Acesoft?</a></li>
+                                <li><a href=".,/career.html#work-culture">Work Culture</a></li>
+                                <li><a href="../career.html#current-oppurtunities">Current Opportunities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Products</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../products.html#edukul">Edukul</a></li>
+                                <li><a href="../products.html#edvantage">Edvantage</a></li>
+                                <li><a href="../products.html#edqart">EdQart</a></li>
+                                <li><a href="../products.html#wizaru">Wizaru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyrights">
+            <div class="legal">
+                <a href="../privacy.html">Legal & Privacy</a>
+            </div>
+
+            <div class="copyrights">
+                © 2025 AcesoftLabs, All rights reserved
+            </div>
+
+            <div class="media">
+                <a target="_blank" href="https://www.linkedin.com/company/Acesoft-labs/"><img alt="image" loading="lazy"
+                        src="../images/media-links/media-linkedin.svg" /></a>&nbsp;&nbsp;
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>

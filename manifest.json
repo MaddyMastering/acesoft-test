@@ -1,0 +1,9 @@
+{
+    "name": "Acesoft Labs",
+    "short_name": "Acesoft",
+    "theme_color": "#FCD30B",
+    "background_color": "#549CE9",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": []
+}

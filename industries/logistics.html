@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#FCD30B" />
+    <meta name="description" content="Acesoft Labs application">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/offerings.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/accordion.css" />
+    <link rel="stylesheet" href="../css/tabs.css" />
+
+    <title>Acesoft</title>
+
+    <style>
+        .offering-bullets {
+            margin: 2rem 0;
+        }
+
+        .offering-bullet {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            flex-direction: column;
+        }
+
+        .offering-bullet>img {
+            height: 3rem;
+        }
+
+        .offering-bullet>p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <header>
+        <nav class="navigation">
+            <a href="../index.html" class="logo">
+                <img alt="image" loading="lazy" src="../images/logo.svg" />
+            </a>
+
+            <ul>
+                <li class="has-submenu flex-center">
+                    <a href="../offerings/cloud-solutions.html">Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu">
+                        <div class="submenu-items">
+                            <a href="../offerings/enterprise-software.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Enterprise Software Development</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../offerings/cloud-solutions.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Cloud Computing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../offerings/data-and-ai-driven-bussiness.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Data & AI-Driven Business Insights</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../offerings/engineering-services.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Engineering Services (Embedded & Semiconductor)</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../offerings/professional-services.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Professional Services</b></p>
+
+                                </div>
+                            </a>
+
+                            <a href="../offerings/global-delivery-center.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Global Captive Center (GCC)</b></p>
+
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="has-submenu flex-center">
+                    <a href="../products.html">Products</a>
+                </li>
+
+                <li class="has-submenu flex-center"><a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu" style="transform: translate(30%, 0);">
+                        <div class="submenu-items">
+                            <a href="./manufacturing.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-manufacturing.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Manufacturing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./energy-and-utilities.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Energy & Utilities</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./oil-and-gas-industries.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-oil-gas.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Oil & Gas</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./logistics.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-logistics.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Logistics</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./bfsi.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>BFSI</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="flex-center"><a href="../about-us.html">About Us</a></li>
+                <li class="flex-center"><a href="../career.html">Careers</a></li>
+                <li class="flex-center">
+                    <button onclick="gotoContact()">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" /> &nbsp;Reach
+                        us</button>
+                </li>
+            </ul>
+
+            <div class="mobile-only">
+                <div class="mobile-header">
+                    <button onclick="gotoContact()" class="go-to-contact">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+
+                    <div class="mobile-wrapper">
+                        <a class="mobile-hamburger" onclick="toggleMobileMenu()"><img
+                                src="../images/icons/menu.svg" /></a>
+
+                        <div id="mobile-menu" class="mobile-menu">
+                            <ul>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                            </div>
+                                            <a href="../offerings/enterprise-software.html">Enterprise Software</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                            </div>
+                                            <a href="../offerings/cloud-solutions.html">Cloud Computing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                            </div>
+                                            <a href="../offerings/data-and-ai-driven-bussiness.html">Data & AI-Driven
+                                                Business Insights</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                            </div>
+                                            <a href="../offerings/engineering-services.html">Engineering Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                            </div>
+                                            <a href="../offerings/professional-services.html">Professional Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                            </div>
+                                            <a href="../offerings/global-delivery-center.html">Global Delivery Control
+                                                (GDC)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../products.html">Products</a></li>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-manufacturing.svg" />
+                                            </div>
+                                            <a href="./manufacturing.html">Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                            </div>
+                                            <a href="./energy-and-utilities.html">Energy & Utilities</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-logistics.svg" />
+                                            </div>
+                                            <a href="./logistics.html">Logistics</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-oil-gas.svg" />
+                                            </div>
+                                            <a href="./oil-and-gas-industries.html">Oil & Gas Industries</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                            </div>
+                                            <a href="./bfsi.html">BFSI</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../about-us.html">About Us</a></li>
+                                <li><a href="../career.html">Career</a></li>
+                                <li class="on-smallest-device"><a onclick="gotoContact()">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome-banner">
+        <div class="welcome-text">
+            <h1>Powering the Future <br />of Intelligent Logistics</h1>
+        </div>
+
+        <div class="welcome-image">
+            <img alt="image" loading="lazy" src="../images/welcome-banner/logistics.svg" />
+        </div>
+    </div>
+
+    <div class="intro-bg">
+        <div class="container" style="display: flex;flex-direction: column;gap: 1rem;">
+            <div class="highlight">
+                <h1>Real-Time Visibility for Smarter Logistics</h1>
+                <h3>We help logistics providers modernize operations from warehousing to last-mile delivery by replacing manual processes and legacy systems with integrated, real-time platforms. Our solutions boost agility, reduce delays, and enable smarter, data-driven decisions across the entire supply chain.</h3>
+            </div>
+
+            <div class="tabs-container">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="tab1">
+                        <!-- <span>01</span> -->
+                        <h3>Digital Infrastructure for Logistics</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab2">
+                        <!-- <span>02</span> -->
+                        <h3>How Legacy Systems Limit Logistics Growth</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab3">
+                        <!-- <span>03</span> -->
+                        <h3>How We Build Real-World Logistics Platforms</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab4">
+                        <!-- <span>04</span> -->
+                        <h3>Build Smarter Logistics with Acesoft</h3>
+                    </button>
+                </div>
+
+                <div class="tab-content active" id="tab1">
+                    <h3>Modern logistics is no longer just about moving goods-it’s about real-time visibility, adaptive routing, and operational resilience. Acesoft builds the digital platforms that logistics operations actually run on-systems that scale with demand, respond to disruption, and stay reliable under pressure.</h3>
+                    <h3>From fleet management to delivery tracking, we help logistics providers gain control, reduce friction, and deliver performance across the entire supply chain.</h3>
+                </div>
+
+                <div class="tab-content" id="tab2">
+                    <h3>Most logistics systems were built for a world where updates every few hours were acceptable and route planning followed fixed logic. But today’s demands are different:</h3>
+                    <ol>
+                        <li>Customers expect live updates.</li>
+                        <li>Fleets must operate leaner.</li>
+                        <li>Delays need real-time resolution-not reactive fixes.</li>
+                    </ol>
+
+                    <br />
+                    <h3><b>Legacy platforms create inefficiencies:</b></h3>
+                    <ol>
+                        <li>Dispatchers toggle between disconnected tools.</li>
+                        <li>Drivers lack real-time rerouting.</li>
+                        <li>Data is delayed, inaccurate, or simply missing.</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3>Acesoft helps modernize logistics operations by enabling real-time data flow, intelligent automation, and dynamic optimization across your ecosystem.</h3>
+                    <h3><b>We solve challenges like:</b></h3>
+                    <ol>
+                        <li>Building real-time dashboards for vehicle and asset tracking</li>
+                        <li>Delivering ETAs that update with traffic, loading, and route conditions</li>
+                        <li>Enabling live rerouting without dispatch manual intervention</li>
+                        <li>Monitoring condition-sensitive cargo (cold chain, hazmat, etc.)</li>
+                        <li>Aligning warehouse and fleet operations in real time</li>
+                    </ol>
+
+                    <br />
+                    <h3>We don’t just overlay dashboards-we re-engineer workflows for end-to-end efficiency.</h3>
+                </div>
+                <div class="tab-content" id="tab3">
+                    <h3>Real-Time Visibility Across the Movement Chain</h3>
+                    <h3>Replace fragmented GPS views and lagging reports with a unified, live platform that shows what’s happening across your entire fleet-right now.</h3>
+
+                    <br />
+                    <h3><b>Capabilities include:</b></h3>
+                    <ol>
+                        <li>Live vehicle, container, and shipment tracking</li>
+                        <li>Automated ETA adjustments based on real-time variables</li>
+                        <li>Exception alerts for delays, route deviations, and idling</li>
+
+                    </ol>
+
+                    <br />
+                    <h3>Intelligent Route Optimization That Reacts in Real Time</h3>
+                    <h3>Conventional route planning tools stop working once the day begins. Acesoft builds adaptive routing systems that adjust to real-world events as they unfold.</h3>
+
+                    <br />
+                    <h3><b>Our platform supports:</b></h3>
+                    <ol>
+                        <li>Dynamic rerouting for last-minute changes</li>
+                        <li>Automatic adaptation to traffic, weather, and priority shifts</li>
+                        <li>Optimization for time-sensitive or high-value cargo</li>
+                    </ol>
+
+                    <br />
+                    <h3>Fleet Automation to Eliminate Manual Overhead</h3>
+                    <h3>Dispatch teams shouldn’t be buried in phone calls, spreadsheets, and status checks. Acesoft automates repetitive steps to free up time for high-impact decisions.</h3>
+
+                    <br />
+                    <h3><b>Key features:</b></h3>
+                    <ol>
+                        <li>Live dispatch and load assignments based on capacity and location</li>
+                        <li>Digital pre-trip inspections and vehicle checklists</li>
+                        <li>Driver apps for real-time task management, tracking, and reporting</li>
+                    </ol>
+                </div>
+                <div class="tab-content" id="tab4">
+                    <h3>Logistics operations generate valuable data every second-but without unified systems, that potential remains untapped. Acesoft consolidates your data into a real-time platform that powers faster decisions, better visibility, and scalable automation.</h3>
+                    <h3>Whether it's optimizing dispatch, minimizing delivery exceptions, or enabling live shipment tracking, we build the digital backbone that keeps your logistics agile and performance-driven.</h3>
+                    <h3>Partner with Acesoft to create logistics platforms built for the real world.</h3>
+                </div>
+            </div>
+
+            <h2>Why Acesoft?</h2>
+            <h3>The logistics industry demands speed, precision, and continuous visibility. Acesoft delivers resilient, scalable platforms that streamline operations, reduce costs, and enable real-time responsiveness across the supply chain.</h3>
+
+            <br />
+            <h3><b>We bring:</b></h3>
+            <ul class="arrow-list">
+                <li>Deep logistics domain expertise</li>
+                <li>Experience across warehousing, transportation, and last-mile delivery</li>
+                <li>Agile implementation tailored to operational realities</li>
+                <li>Long-term support with logistics-aware engineering teams</li>
+            </ul>
+
+            <br />
+            <h3><b>Our Differentiators:</b></h3>
+            <ul class="arrow-list">
+                <li>Seamless integration with WMS, TMS, and ERP systems</li>
+                <li>Modular architecture for fast rollout and easy scaling</li>
+                <li>Real-time fleet and inventory visibility dashboards</li>
+                <li>AI-powered route optimization and demand forecasting</li>
+                <li>Security-first platforms with audit-ready compliance</li>
+            </ul>
+
+            <br />
+            <h2>Transform Your Logistics Network with Intelligence</h2>
+            <h3>From warehouse automation to last-mile tracking, Acesoft helps logistics businesses digitize, connect, and scale. Our technology brings intelligence and transparency to every step-improving asset utilization, delivery accuracy, and customer satisfaction.</h3>
+
+            <br />
+            <h3><b>We empower you to move smarter, respond faster, and operate with full control.</b></h3>
+        </div>
+    </div>
+
+    <div class="digital-transformation-banner">
+        <h1>Trusted Partner in Digital Transformation</h1>
+        <h3>We deliver digital transformation services that drive intelligent growth, rapid innovation and tangible results.</h3>
+
+        <button onclick="gotoContact()">Contact Us
+            <span><img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"></span>
+        </button>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="image" loading="lazy" src="../images/footer-logo.svg" />
+            </div>
+
+            <div class="footer-info">
+                <div class="address">
+                    <div>
+                        <div class="heading">Contact</div>
+                        <div class="content">
+                            <p>Tel: +91 80 25008900
+                                <br />+91-9900045283
+                                <br />Email: info@Acesoftlabs.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">India</div>
+                        <div class="content">
+                            <p>
+                                <b>Acesoft Labs (India) Pvt. Ltd.</b>
+                                <br />60 Zenith Square 
+                                <br />Marathahalli Outer Ring Rd
+                                <br />R.J. Gardens, Anand Nagar 
+                                <br />Aswath Nagar, Chinnapannahalli
+                                <br />Bengaluru 560037, Karnataka
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">UAE</div>
+                        <div class="content">
+                            <p><b>Acesoft Technologies-FZCO</b>
+                                <br />IFZA Business Park DDP
+                                <br />PO BOX: 342001, Dubai
+                                <br />United Arab Emirates
+                                <br />+971 56 232 9839
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">USA</div>
+                        <div class="content">
+                            <p><b>Acesoft Solution Inc</b>
+                                <br />16192, COASTAL HWYLEWES
+                                <br />DE 19958
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <div>
+                        <div class="heading">Services</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../offerings/enterprise-software.html">Enterprise Software Development</a>
+                                </li>
+                                <li><a href="../offerings/cloud-solutions.html">Cloud Computing</a></li>
+                                <li><a href="../offerings/data-and-ai-driven-bussiness.html">Data & AI-Driven Business
+                                        Insights</a></li>
+                                <li><a href="../offerings/engineering-services.html">Engineering Services</a></li>
+                                <li><a href="../offerings/professional-services.html">Professional Services</a></li>
+                                <li><a href="../offerings/global-delivery-center.html">Global Captive Center (GCC)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Industries</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./bfsi.html">BFSI</a></li>
+                                <li><a href="./energy-and-utilities.html">Energy & Utilities</a></li>
+                                <li><a href="./manufacturing.html">Manufacturing</a></li>
+                                <li><a href="./oil-and-gas-industries.html">Oil & Gas</a></li>
+                                <li><a href="./logistics.html">Logistics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Careers</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../career.html#why">Why Acesoft?</a></li>
+                                <li><a href=".,/career.html#work-culture">Work Culture</a></li>
+                                <li><a href="../career.html#current-oppurtunities">Current Opportunities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Products</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../products.html#edukul">Edukul</a></li>
+                                <li><a href="../products.html#edvantage">Edvantage</a></li>
+                                <li><a href="../products.html#edqart">EdQart</a></li>
+                                <li><a href="../products.html#wizaru">Wizaru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyrights">
+            <div class="legal">
+                <a href="../privacy.html">Legal & Privacy</a>
+            </div>
+
+            <div class="copyrights">
+                © 2025 AcesoftLabs, All rights reserved
+            </div>
+
+            <div class="media">
+                <a target="_blank" href="https://www.linkedin.com/company/Acesoft-labs/"><img alt="image" loading="lazy"
+                        src="../images/media-links/media-linkedin.svg" /></a>&nbsp;&nbsp;
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>

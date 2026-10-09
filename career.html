@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#FCD30B" />
+    <meta name="description" content="Acesoft Labs application">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/typography.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/accordion.css" />
+    <link rel="stylesheet" href="./css/career.css" />
+    <link rel="stylesheet" href="./splide-4.1.3/css/splide.min.css" />
+    <title>Acesoft</title>
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <header>
+        <nav class="navigation">
+            <a href="./index.html" class="logo">
+                <img alt="image" loading="lazy" src="./images/logo.svg" />
+            </a>
+
+            <ul>
+                <li class="has-submenu flex-center">
+                    <a href="./offerings/cloud-solutions.html">Services&nbsp;&nbsp;<img alt="Image" loading="lazy"
+                            src="./images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu">
+                        <div class="submenu-items">
+                            <a href="./offerings/enterprise-software.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-esp.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Enterprise Software Development</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./offerings/engineering-services.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-es.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Engineering Services (Embedded & Semiconductor)</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./offerings/professional-services.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-ps.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Professional Services</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./offerings/cloud-solutions.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-cc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Cloud Computing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./offerings/global-delivery-center.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-gdc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Global Captive Center (GCC)</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./offerings/data-and-ai-driven-bussiness.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-ai.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Data & AI-Driven Business Insights</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="has-submenu flex-center">
+                    <a href="./products.html">Products</a>
+                </li>
+
+                <li class="has-submenu flex-center"><a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="./images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu" style="transform: translate(30%, 0);">
+                        <div class="submenu-items">
+                            <a href="./industries/bfsi.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-bfsi.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>BFSI</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./industries/energy-and-utilities.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-energy.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Energy & Utilities</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./industries/oil-and-gas-industries.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-oil-gas.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Oil & Gas</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./industries/manufacturing.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-manufacturing.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Manufacturing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./industries/logistics.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="./images/icons/menu-logistics.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Logistics</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="flex-center"><a href="./about-us.html">About Us</a></li>
+                <li class="flex-center"><a href="./career.html">Careers</a></li>
+                <li class="flex-center">
+                    <button onclick="gotoContact()">
+                        <img alt="image" loading="lazy" src="./images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" /> &nbsp;Reach
+                        us</button>
+                </li>
+            </ul>
+
+            <div class="mobile-only">
+                <div class="mobile-header">
+                    <button onclick="gotoContact()" class="go-to-contact">
+                        <img alt="image" loading="lazy" src="./images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" /> &nbsp;Reach
+                        us</button>
+
+                    <div class="mobile-wrapper">
+                        <a class="mobile-hamburger" onclick="toggleMobileMenu()"><img
+                                src="./images/icons/menu.svg" /></a>
+
+                        <div id="mobile-menu" class="mobile-menu">
+                            <ul>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="./images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-esp.svg" />
+                                            </div>
+                                            <a href="./offerings/enterprise-software.html">Enterprise Software</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-cc.svg" />
+                                            </div>
+                                            <a href="./offerings/cloud-solutions.html">Cloud Computing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-gdc.svg" />
+                                            </div>
+                                            <a href="./offerings/global-delivery-center.html">Global Delivery Control
+                                                (GDC)</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-es.svg" />
+                                            </div>
+                                            <a href="./offerings/engineering-services.html">Engineering Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-ai.svg" />
+                                            </div>
+                                            <a href="./offerings/data-and-ai-driven-bussiness.html">Data & AI-Driven
+                                                Business Insights</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-ps.svg" />
+                                            </div>
+                                            <a href="./offerings/professional-services.html">Professional Services</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="./products.html">Products</a></li>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="./images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-bfsi.svg" />
+                                            </div>
+                                            <a href="./industries/bfsi.html">BFSI</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-energy.svg" />
+                                            </div>
+                                            <a href="./industries/energy-and-utilities.html">Energy & Utilities</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="./images/icons/menu-logistics.svg" />
+                                            </div>
+                                            <a href="./industries/logistics.html">Logistics</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy"
+                                                    src="./images/icons/menu-manufacturing.svg" />
+                                            </div>
+                                            <a href="./industries/manufacturing.html">Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="./images/icons/menu-oil-gas.svg" />
+                                            </div>
+                                            <a href="./industries/oil-and-gas-industries.html">Oil & Gas Industries</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="./about-us.html">About Us</a></li>
+                                <li><a href="./career.html">Career</a></li>
+                                <li class="on-smallest-device"><a onclick="gotoContact()">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome-banner">
+        <div class="welcome-text">
+            <h1>Create with purpose. <br />Innovate with passion. Grow with us.</h1>
+        </div>
+
+        <div class="welcome-image">
+            <img alt="image" loading="lazy" src="./images/welcome-banner/business-team-street.svg" />
+        </div>
+    </div>
+
+    <div class="career-content">
+        <div id="why">
+            <h1>Why Acesoft?</h1>
+            <br />
+            <h3>Join a team where engineers build with purpose, solve real-world problems, and grow fast. At Acesoft, you get global exposure, hands-on innovation, clear career paths, and a culture that values ownership, impact, and inclusion.</h3>
+            <br />
+            <h3>At Acesoft, you don't just work-you build, solve, and grow. Join a team of passionate engineers and innovators tackling real-world challenges across industries and geographies. With hands-on projects, global exposure, rapid skill development, and a clear career path, you'll shape impactful systems while shaping your future. We value ownership, inclusivity, and a mindset that thrives on making a difference.</h3>
+            <br /><br />
+        </div>
+
+        <div id="work-culture">
+            <h1>Work Culture at Acesoft Labs</h1>
+            <br />
+            <h3>We thrive at the intersection of complexity and clarity. Our teams own the full delivery lifecycle-from architecture to deployment-driven by autonomy, accountability, and a passion for solving real problems. We value deep thinking, precision, and fast, open collaboration.</h3>
+            <br />
+            <h3>Mentorship, innovation labs, and a strong culture of technical ownership empower our people to grow rapidly and build systems that scale. With a focus on outcome-driven work and thoughtful work-life integration, Acesoft is where engineers create, lead, and thrive.</h3>
+            <br /><br />
+        </div>
+
+        <div id="current-oppurtunities">
+            <h1>Current Opportunities</h1>
+            <br />
+            <h3>Discover open roles at Acesoft Labs where your skills can drive real impact. Whether you're an engineer, architect, analyst, or delivery lead, we offer positions that connect you to meaningful, purpose-driven work. Explore our current openings, apply directly, and take the next step with a team focused on clarity, execution, and growth.
+        </h3>
+        </div>
+
+        <!-- <div class="search-form">
+            <form onsubmit="return search()">
+                <input type="text" placeholder="Search Jobs" />
+
+                <input type="text" placeholder="Type Locations" />
+
+                <button type="submit" class="search">
+                    <img alt="image" loading="lazy" src="./images/icons/search.svg" />
+                </button>
+            </form>
+        </div> -->
+
+        <br /><br />
+
+
+        <script type="text/javascript" src="https://jobsapi.ceipal.com/APISource/widget.js"
+            data-ceipal-api-key="SS9zTGlmYWVoR0hyTEpTeGp3ODJQdz09"
+            data-ceipal-career-portal-id="Z3RkUkt2OXZJVld2MjFpOVRSTXoxZz09"></script>
+        <div id="example-widget-container"></div>
+
+        <br />
+
+        <div class="jobs">
+            <!-- <div class="filters">
+                <ul id="department-list">
+                </ul>
+            </div> -->
+
+            <div class="listings">
+                <ul id="job-list">
+                </ul>
+
+                <!-- <div class="flex-center">
+                    <button id="see-more" class="show-more" onclick="seeAllJobs()">Show more ...</button>
+                </div> -->
+            </div>
+        </div>
+
+        <br /><br />
+
+        <h1>Experience our culture. Explore our journey.</h1>
+
+        <div class="career-photo-grid">
+            <!-- <div class="flex-center">
+                <h1>Follow us on social to see what we're up to!</h1>
+            </div> -->
+            <img src="./images/career/career-2.jpeg" />
+            <img src="./images/career/career-3.jpeg" />
+            <img src="./images/career/career-5.jpeg" />
+            <img src="./images/career/career-4.jpeg" />
+            <img src="./images/career/career-1.jpeg" />
+            <img src="./images/career/career-6.jpeg" />
+        </div>
+    </div>
+
+    <div class="digital-transformation-banner">
+        <h1>Trusted Partner in Digital Transformation</h1>
+        <h3>We deliver digital transformation services that drive intelligent growth, rapid innovation and tangible results.</h3>
+
+        <button onclick="gotoContact()">Contact Us
+            <span><img alt="image" loading="lazy" src="./images/icons/black-chevron-right.svg"></span>
+        </button>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="image" loading="lazy" src="./images/footer-logo.svg" />
+            </div>
+
+            <div class="footer-info">
+                <div class="address">
+                    <div>
+                        <div class="heading">Contact</div>
+                        <div class="content">
+                            <p>Tel: +91 80 25008900
+                                <br />+91-9900045283
+                                <br />Email: info@Acesoftlabs.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">India</div>
+                        <div class="content">
+                            <p>
+                                <b>Acesoft Labs (India) Pvt. Ltd.</b>
+                                <br />60 Zenith Square 
+                                <br />Marathahalli Outer Ring Rd
+                                <br />R.J. Gardens, Anand Nagar 
+                                <br />Aswath Nagar, Chinnapannahalli
+                                <br />Bengaluru 560037, Karnataka
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">UAE</div>
+                        <div class="content">
+                            <p><b>Acesoft Technologies-FZCO</b>
+                                <br />IFZA Business Park DDP
+                                <br />PO BOX: 342001, Dubai
+                                <br />United Arab Emirates
+                                <br />+971 56 232 9839
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">USA</div>
+                        <div class="content">
+                            <p><b>Acesoft Solution Inc</b>
+                                <br />16192, COASTAL HWYLEWES
+                                <br />DE 19958
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <div>
+                        <div class="heading">Services</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./offerings/enterprise-software.html">Enterprise Software
+                                        Development</a>
+                                </li>
+                                <li><a href="./offerings/cloud-solutions.html">Cloud Computing</a></li>
+                                <li><a href="./offerings/data-and-ai-driven-bussiness.html">Data & AI-Driven
+                                        Business
+                                        Insights</a></li>
+                                <li><a href="./offerings/engineering-services.html">Engineering Services</a></li>
+                                <li><a href="./offerings/professional-services.html">Professional Services</a></li>
+                                <li><a href="./offerings/global-delivery-center.html">Global Captive Center
+                                        (GCC)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Industries</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./industries/manufacturing.html">Manufacturing</a></li>
+                                <li><a href="./industries/energy-and-utilities.html">Energy & Utilities</a></li>
+                                <li><a href="./industries/oil-and-gas-industries.html">Oil & Gas</a></li>
+                                <li><a href="./industries/logistics.html">Logistics</a></li>
+                                <li><a href="./industries/bfsi.html">BFSI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Careers</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./career.html#why">Why Acesoft?</a></li>
+                                <li><a href="./career.html#work-culture">Work Culture</a></li>
+                                <li><a href="./career.html#current-oppurtunities">Current Opportunities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Products</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./products.html#edukul">Edukul</a></li>
+                                <li><a href="./products.html#edvantage">Edvantage</a></li>
+                                <li><a href="./products.html#edqart">EdQart</a></li>
+                                <li><a href="./products.html#wizaru">Wizaru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyrights">
+            <div class="legal">
+                <a href="./privacy.html">Legal & Privacy</a>
+            </div>
+
+            <div class="copyrights">
+                © 2025 AcesoftLabs, All rights reserved
+            </div>
+
+            <div class="media">
+                <a target="_blank" href="https://www.linkedin.com/company/Acesoft-labs/"><img alt="image" loading="lazy"
+                        src="./images/media-links/media-linkedin.svg" /></a>&nbsp;&nbsp;
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script>
+        window.onhashchange = () => {
+            window.location.reload();
+        };
+
+        const hashValue = window.location.hash.substring(1).toLowerCase();
+        let jobs = [{
+            title: "SAP S/4 HANA Transportation Management Consultant",
+            tags: ["Support Project", "Full time"],
+            description: `
+            <b>Project</b>:  Support Project<br />
+<b>Location</b>: Bengaluru, India<br />
+<b>Job type</b>: Full Time<br /><br />
+
+<b>Job Description</b><br />
+The candidate must be a graduate (BE/B.Tech Preferable) and should have experience of SAP S/4HANA TM.<br />
+
+Must have at least two implementations/roll-out experience in S/4 HANA projects
+Hands on experience in implementation, rollout and support projects is mandatory.
+As SAP TM Consultant, candidate should have experience in business requirements gathering, Perform Gap Analysis, draft AS-IS & TO-BE documents.<br />
+
+Should be well versed with Freight Order Management, Charges & Freight settlement, Freight Agreement. Good understanding in the concepts of Transportation Network, Transportation Mode, Tendering.
+Candidate should be well versed with Road Freight, Ocean Freight & Air freight business process understanding. Stage building concepts of these scenarios.
+Experience in integration with other SAP modules like SD, MM, FI, WM module is required.<br />
+
+Must be well versed with relevant master data like – Business Partner (with various transportation related roles), Transportation Network
+Experience in analysis, design, develop and testing skills required.
+Should have worked on interfaces involving SAP & Non-SAP Systems
+Hands on experience in documentation related to SAP, i.e., converting BRD to configuration document / functional specifications, creating test scenarios and test cases and testing (UT, FT/S & IT) is required.
+Work experience in any incident handling tool is required.<br /><br />
+
+<b>Desired Soft Skills:</b><br />
+<ul style='padding-left: 1rem'>
+    <li style="list-style-type: disc">Must have excellent analytical, troubleshooting, and problem-solving skills.</li>
+    <li style="list-style-type: disc">Expertise to understand, execute and deliver.</li>
+    <li style="list-style-type: disc">Excellent oral and written communication skills</li>
+    <li style="list-style-type: disc">Ability to work independently or in conjunction with a team.</li>
+    <li style="list-style-type: disc">Ability to work issues through resolution.</li>
+    <li style="list-style-type: disc">Ability to understand business processes from a customer perspective.</li>
+    <li style="list-style-type: disc">Ability to work in a team environment, effectively interacting with others.</li>
+    <li style="list-style-type: disc">Must be results oriented, adaptable, flexible, and proactive.</li>
+<ul>
+            `,
+            link: ""
+        },
+        {
+            title: "SAP CO - Product Costing -Senior Consultant",
+            tags: ["Full time"],
+            description: `
+            <b>Project</b>:  Support Project<br />
+<b>Location</b>: Bengaluru, India<br />
+<b>Job type</b>: Full Time<br /><br />
+
+<b>Job Description</b>
+
+S/4 HANA CO Consultant with 8 ~ 10 years of relevant experience<br />
+
+Technical Skill sets: S/4 HANA Controlling - specialization in  Profitability Analysis<br />
+
+Should have worked on at least two E2E Implementations on SAP S/4 HANA with General Controlling, Product costing and CO-PA.<br />
+Should be well versed in demonstrated configuration skills in key areas like Cost center accounting, profit center accounting and internal orders.<br />
+Candidate should have experience in writing Functional Specifications independently and should have worked on Custom Objects build from Scratch to Deployments.<br />
+ Experience with designing, building and deploying process MTO (Make to order) and MTS (Make to stock).<br />
+Material ledger configuration for material valuation in multiple currencies and actual cost calculation for actual material reports.<br />
+Material Ledger, multiple valuations, able to perform a kind of real-time consolidation across the group for all purchases, manufacturing, sales, intercompany sales etc. removing intercompany revenues & COGS in real-time. <br />
+Experience executing a business blueprint and documenting business requirements that can be understood by a technical process team. <br />
+Expert with cost accounting, and product costing/inventory valuation. <br />
+Strong knowledge of the following scenarios i.e. Product cost by order, Product cost by period, Product cost by sales order.<br />
+Experience to Configure Report Painter, SAP queries. <br />
+Should have experience on migration Cockpit. <br />
+Should have experience in controlling month end year-end activities.<br />
+Must have experience in configuration and enhancement in COPA characteristic derivation and valuation. <br />
+Must have worked with various reporting requirements in COPA. <br />
+Must have configured COPA planning functions. <br />
+Design and Configure CO-PA (Profitability Analysis) reporting, forms, derivation rules and structures, product and customer hierarchy, PA settlement, realignments, and integration issues. <br />
+Cross module Integration of CO with SD (Sales & Distribution), MM (Materials Management) and Production Planning. <br /><br />
+ 
+
+<b>Must Have Skills:</b><br />
+
+<ul>
+    <li>Deep expertise on SAP S4 HANA CO application functionality, design and implementation. </li>
+    <li>S4 HANA Implementation & support experience in SAP CO including CCA, PCA, IO, CO-PC, CO-PA, CO-MM.</li>
+    <li>Must be skilled in user support, troubleshooting and error resolution.</li>
+    <li>Must have good experience in WRICEF </li>
+    <li>Must have worked on Interfaces using IDOCs, ALE, Proxies, EDI and RFC. </li>
+    <li>Must have strong business understanding and suggest SAP solutions for various business scenarios </li>
+    <li>Ability to help resolve complex issues and independently manage critical/complex situations </li>
+    <li>Perform detailed analysis of complex business process requirements and provide appropriate system solutions; identify, interpret, validate and document customer requirements</li>
+    <li>Use ABAP debugging skills to troubleshoot issues  </li>
+    <li>Collaborate with ABAP developers to understand their code, read ABAP code, and assist in debugging, ensuring efficient and effective ABAP solutions </li>
+    <li>Work self-directed and independently; may act as subject matter expert (SME)</li>
+</ul>
+<br /><br />
+ 
+
+<b>Specific knowledge and tools:</b><br />
+
+<ul>
+    <li>Excellent communication & strong collaboration skills</li>
+    <li>Flexible to adapt to fast changing environment and self-motivated</li>
+    <li>Creating technical design specifications to ensure compliance with the functional teams and IT Management</li>
+    <li>Analytical thinking, high level of comprehension and independent working style.</li>
+    <li>Familiarity with the IT Service Management (ITSM) framework and processes, including incident management, problem management, change management, and service request management.</li>
+    <li>Seeking candidates who are flexible and willing to work on shifts as required.</li>
+</ul>
+        `,
+            link: ""
+        },
+        {
+            title: "Senior Principal Engineer (Azure architect with DevOps knowledge) ",
+            tags: ["Full time"],
+            description: `
+<b>Location</b>: Bengaluru, India<br />
+<b>Job type</b>: Full Time<br />
+<b>Experience</b>: 7+ years of experience<br /><br />
+ 
+<b>Preferred Skills and Tools:</b>
+
+<ul>
+    <li>Microsoft Azure (IaaS, PaaS, Networking, Governance, Cost Management)</li>
+    <li>Azure DevOps, Terraform , AKS , Containers</li>
+    <li>ExpressRoute, Load Balancers, NSGs , Firewalls</li>
+    <li>Azure Sentinel, monitoring and security compliance</li>
+    <li>Strong understanding of hybrid cloud architectures and enterprise integration</li>
+</ul>
+ 
+<br /><br />
+ <b>Responsibilities:</b>
+ 
+ • Lead the design, implementation, and optimization of Azure-based solutions, ensuring security, scalability, and cost-efficiency.<br />
+ 
+ • Serve as the technical lead and subject matter expert for Windows and Azure cloud infrastructure, including governance, networking, and platform integration.<br />
+ 
+ • Collaborate with cross-functional teams (Product Owners, Project Managers, DevOps, and Security) to transform business needs into technical solutions.<br />
+ 
+ • Manage infrastructure tasks across hybrid platforms including Azure and on-premise systems.<br />
+ 
+ • Drive incident response, root cause analysis, and resolution coordination for infrastructure and connectivity issues.<br />
+ 
+ • Implement and maintain monitoring, alerting, and vulnerability management using tools like Azure Sentinel.<br />
+ 
+ • Perform cost optimization by managing VM sizing, reservations, and resource clean-up.<br />
+ 
+ • Handle firewall rules, DNS, certificates, ExpressRoute connectivity, and Azure networking (VWAN, VNETs, Load Balancers).<br />
+ 
+ • Plan and execute OS patching and ensure platform compliance with DTAG/DTICI standards.<br />
+ 
+ • Lead migration and integration efforts, ensuring minimal disruption and adherence to timelines<br />
+ 
+ • Maintain and enhance CI/CD pipelines using Azure DevOps, and support project environments (Dev/Prod).<br />
+ 
+ • Contribute to long-term infrastructure roadmap planning and mentor junior engineers as needed.<br />
+ `,
+            link: ""
+        }];
+
+        var departments = [
+            { value: "all", label: "All Positions", count: 17 },
+            { value: "engineering", label: "Engineering", count: 7 },
+            { value: "product", label: "Product", count: 1 },
+            { value: "design", label: "Design", count: 3 },
+            { value: "operations", label: "Opertations", count: 5 },
+            { value: "marketing", label: "Marketing", count: 2 },
+        ];
+
+
+        // select department
+        const match = departments.find(dep => dep.value.toLowerCase() === hashValue);
+
+        // render departments
+        // var departmentList = document.getElementById("department-list");
+        // departments.forEach(function (department) {
+        //     var li = document.createElement("li");
+        //     var a = document.createElement("a");
+        //     a.textContent = `${department.label} (${department.count || 0})`;
+        //     a.href = `#${department.value}`;
+
+        //     // Add "active" class conditionally
+        //     const isMatch = match && department.value === match.value;
+        //     const isDefault = !match && department.value === "all";
+
+        //     if (isMatch || isDefault) {
+        //         li.classList.add("active");
+        //     }
+
+        //     li.appendChild(a);
+        //     departmentList.append(li);
+        // });
+
+        // render jobs
+        // var jobList = document.getElementById("job-list");
+        // jobs.forEach(function (job) {
+        //     var li = document.createElement("li");
+        //     var title = document.createElement("h2");
+        //     title.textContent = job.title;
+        //     li.appendChild(title);
+        //     var tagsUl = document.createElement("ul");
+        //     tagsUl.classList.add("tags");
+        //     job.tags.forEach(function (tag) {
+        //         var tagLi = document.createElement("li");
+        //         tagLi.textContent = tag;
+        //         tagsUl.appendChild(tagLi);
+        //     });
+        //     li.appendChild(tagsUl);
+        //     var desc = document.createElement("p");
+        //     desc.innerHTML = job.description;
+        //     li.appendChild(desc);
+        //     var flexEndDiv = document.createElement("div");
+        //     flexEndDiv.classList.add("flex-end");
+        //     var button = document.createElement("button");
+        //     button.classList.add("see-positions");
+        //     button.textContent = "See Positions";
+        //     flexEndDiv.appendChild(button);
+        //     li.appendChild(flexEndDiv);
+        //     jobList.appendChild(li);
+        // });
+
+        function search() {
+            console.log("search job");
+            return false;
+        }
+
+        function getToken() {
+            const url = 'https://api.ceipal.com/v1/createAuthtoken/';
+
+            const data = {
+                email: "renuka.v@Acesoftlabs.com",
+                password: "Success@09",
+                api_key: "3a654caf98e7b3a01c361c1fb7f0bee8d32523047d2c03c77872e5b90027b2fb",
+                json: 1
+            };
+
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            }).then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            }).then(xmlText => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+                const accessToken = xmlDoc.getElementsByTagName("access_token")[0]?.textContent;
+                console.log('Token', accessToken);
+                getJobs(accessToken);
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function getJobs(accessToken) {
+            const url = "https://api.ceipal.com/getCustomJobPostingDetails/Z3RkUkt2OXZJVld2MjFpOVRSTXoxZz09/4830915db0e97833d80597266664fba5?paging_length=10";
+
+            fetch(url, {
+                method: 'GET',
+                headers: {
+                    'Authorization': `bearer ${accessToken}`
+                }
+            }).then(getResponse => {
+                if (!getResponse.ok) throw new Error('GET request failed');
+                return getResponse.json();
+            }).then(data => {
+                console.log("GET response data:", data.results);
+                jobs = data.results;
+                const jobsToDisplay = jobs.slice(0, 5);
+                buildUI(jobsToDisplay, 5);
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function buildUI(results, visibleItems) {
+            var jobList = document.getElementById("job-list");
+
+            results.forEach(function (job) {
+                var li = document.createElement("li");
+
+                // tile
+                var title = document.createElement("h2");
+                title.textContent = job.job_title;
+                li.appendChild(title);
+
+                // tags
+                var tagsUl = document.createElement("ul");
+                tagsUl.classList.add("tags");
+
+                // job type
+                if (job.job_type != "") {
+                    var jobTypeTag = document.createElement("li");
+                    jobTypeTag.textContent = job.job_type;
+                    tagsUl.appendChild(jobTypeTag);
+                }
+
+                // remote tag
+                var remoteTag = document.createElement("li");
+                var remoteTagText = "";
+                switch (job.remote_job) {
+                    case "Yes": remoteTagText = "Remote";
+                        break;
+                    case "No": remoteTagText = "";
+                        break;
+                    default: remoteTagText = job.remote_job;
+                }
+                if (remoteTagText != "") {
+                    remoteTag.textContent = remoteTagText;
+                    tagsUl.appendChild(remoteTag);
+                }
+
+                //skills tag
+                if (job.public_job_description != "" && job.primary_skills != "") {
+                    var skills = job.primary_skills.split(",");
+                    skills.forEach((skill) => {
+                        var skillTag = document.createElement("li");
+                        skillTag.textContent = skill;
+                        tagsUl.appendChild(skillTag);
+                    });
+                    li.appendChild(tagsUl);
+                }
+
+                var br = document.createElement("br");
+                li.appendChild(br);
+
+                // description
+                var desc = document.createElement("p");
+                desc.innerHTML = job.public_job_description == "" ? job.primary_skills : job.public_job_description;
+                li.appendChild(desc);
+
+                // button
+                var flexEndDiv = document.createElement("div");
+                flexEndDiv.classList.add("flex-end");
+                var button = document.createElement("button");
+                button.classList.add("see-positions");
+                button.textContent = "See Positions";
+                button.addEventListener("click", function () {
+                    window.open(job.apply_job, "_blank");
+                });
+                flexEndDiv.appendChild(button);
+
+                li.appendChild(flexEndDiv);
+                jobList.appendChild(li);
+            });
+        }
+
+        function seeAllJobs() {
+            const btn = document.getElementById("see-more");
+            btn.style.display = "none";
+            buildUI(jobs, jobs.length);
+        }
+
+        // getToken();
+    </script>
+</body>
+
+</html>

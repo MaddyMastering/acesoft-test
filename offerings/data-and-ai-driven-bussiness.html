@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#FCD30B" />
+    <meta name="description" content="Acesoft Labs application">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/offerings.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <link rel="stylesheet" href="../css/tabs.css" />
+    <link rel="stylesheet" href="../css/accordion.css" />
+
+    <title>Acesoft</title>
+    <style>
+        .cubicles>.cubicle {
+            flex-direction: column;
+            align-items: start;
+            gap: 0.5rem;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <header>
+        <nav class="navigation">
+            <a href="../index.html" class="logo">
+                <img alt="image" loading="lazy" src="../images/logo.svg" />
+            </a>
+
+            <ul>
+                <li class="has-submenu flex-center">
+                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu">
+                        <div class="submenu-items">
+                            <a href="./enterprise-software.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Enterprise Software Development</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./cloud-solutions.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Cloud Computing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./data-and-ai-driven-bussiness.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Data & AI-Driven Business Insights</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./engineering-services.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Engineering Services (Embedded & Semiconductor)</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./professional-services.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Professional Services</b></p>
+
+                                </div>
+                            </a>
+
+                            <a href="./global-delivery-center.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Global Captive Center (GCC)</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="has-submenu flex-center">
+                    <a href="../products.html">Products</a>
+                </li>
+
+                <li class="has-submenu flex-center"><a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu" style="transform: translate(30%, 0);">
+                        <div class="submenu-items">
+                            <a href="../industries/manufacturing.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-manufacturing.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Manufacturing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/energy-and-utilities.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Energy & Utilities</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/oil-and-gas-industries.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-oil-gas.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Oil & Gas</b></p>
+
+                                </div>
+                            </a>
+
+                            <a href="../industries/logistics.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-logistics.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Logistics</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/bfsi.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>BFSI</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="flex-center"><a href="../about-us.html">About Us</a></li>
+                <li class="flex-center"><a href="../career.html">Careers</a></li>
+                <li class="flex-center">
+                    <button onclick="gotoContact()">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+                </li>
+            </ul>
+
+            <div class="mobile-only">
+                <div class="mobile-header">
+                    <button onclick="gotoContact()" class="go-to-contact">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+
+                    <div class="mobile-wrapper">
+                        <a class="mobile-hamburger" onclick="toggleMobileMenu()"><img
+                                src="../images/icons/menu.svg" /></a>
+
+                        <div id="mobile-menu" class="mobile-menu">
+                            <ul>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                            </div>
+                                            <a href="./enterprise-software.html">Enterprise Software</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                            </div>
+                                            <a href="./cloud-solutions.html">Cloud Computing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                            </div>
+                                            <a href="./global-delivery-center.html">Global Delivery Control
+                                                (GDC)</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                            </div>
+                                            <a href="./engineering-services.html">Engineering Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                            </div>
+                                            <a href="./data-and-ai-driven-bussiness.html">Data & AI-Driven
+                                                Business Insights</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                            </div>
+                                            <a href="./professional-services.html">Professional Services</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../products.html">Products</a></li>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                            </div>
+                                            <a href="../industries/bfsi.html">BFSI</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                            </div>
+                                            <a href="../industries/energy-and-utilities.html">Energy & Utilities</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-logistics.svg" />
+                                            </div>
+                                            <a href="../industries/logistics.html">Logistics</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-manufacturing.svg" />
+                                            </div>
+                                            <a href="../industries/manufacturing.html">Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-oil-gas.svg" />
+                                            </div>
+                                            <a href="../industries/oil-and-gas-industries.html">Oil & Gas Industries</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../about-us.html">About Us</a></li>
+                                <li><a href="../career.html">Career</a></li>
+                                <li class="on-smallest-device"><a onclick="gotoContact()">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome-banner">
+        <div class="welcome-text">
+            <h1>Unlocking Real-Time <br />Intelligence from Your Data</h1>
+        </div>
+
+        <div class="welcome-image">
+            <img alt="image" loading="lazy" src="../images/welcome-banner/offering-ai.svg" />
+        </div>
+    </div>
+
+    <div class="intro-bg">
+        <div class="container">
+            <div class="introduction">
+                <div class="highlight">
+                    <h1>Driving Business Decisions Through Data & AI</h1>
+                    <h3>We turn enterprise data into actionable intelligence using advanced AI and ML. With deep expertise in data engineering and modern analytics, we help businesses uncover insights, predict trends, and make smarter, faster decisions at scale.</h3>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="tab1">
+                            <!-- <span>01</span> -->
+                            <h3>Real-Time Insights from Raw Data</h3>
+                        </button>
+                        <button class="tab-button" data-tab="tab2">
+                            <!-- <span>02</span> -->
+                            <h3>End-to-End Data & AI Solutions</h3>
+                        </button>
+                        <button class="tab-button" data-tab="tab3">
+                            <!-- <span>03</span> -->
+                            <h3>Industry-Ready Intelligence at Scale</h3>
+                        </button>
+                        <button class="tab-button" data-tab="tab4">
+                            <!-- <span>04</span> -->
+                            <h3>Why Acesoft Labs?</h3>
+                        </button>
+                    </div>
+
+                    <div class="tab-content active" id="tab1">
+                        <h3><b>Transforming Data into Business Growth</b></h3>
+                        <h3>In today's digital economy, data is more than an asset-it's your strategic advantage. But value
+                    doesn't come from volume alone. It comes from clarity, actionability, and timing. At Acesoft Labs,
+                    we help enterprises transform scattered, unstructured, and high-volume data into decision-ready
+                    insights that fuel real-time action and growth.</h3>
+
+                        <h3>We combine deep expertise in data engineering, analytics, and AI to deliver enterprise-grade
+                    intelligence frameworks that are scalable, secure, and aligned with real business priorities.
+                    Whether you're modernizing legacy BI, unifying multi-source data, or operationalizing machine
+                    learning, we enable you to act faster, smarter, and with confidence.
+                </h3>
+                    </div>
+                    <div class="tab-content" id="tab2">
+                        <h3><b>From Architecture to AI-End-to-End Expertise</b></h3>
+
+                        <br />
+                        <h3><b>Data Strategy & Architecture</b></h3>
+                        <h3>We create scalable data architectures that serve as the backbone for analytics and AI.</h3>
+                        <ol>
+                            <li>Data Modernization Roadmap</li>
+                            <li>Cloud & Hybrid Data Architecture</li>
+                            <li>Governance & Compliance Frameworks</li>
+                            <li>Master Data Management (MDM)</li>
+                        </ol>
+
+                        <br /><br />
+                        <h3><b>Data Engineering</b></h3>
+                        <h3>Streamlined pipelines that improve access, quality, and speed.</h3>
+                        <ol>
+                            <li>ETL/ELT Automation</li>
+                            <li>Data Lakes & Warehouses (Snowflake, BigQuery, Redshift)</li>
+                            <li>Real-Time Streaming (Kafka, Spark, Flink)</li>
+                            <li>Data Cleansing & Standardization</li>
+                        </ol>
+
+                        <br /><br />
+                        <h3><b>Advanced Analytics & BI</b></h3>
+                        <h3>Dashboards and tools that turn KPIs into action.</h3>
+                        <ol>
+                            <li>Executive Dashboards (Power BI, Tableau, Looker)</li>
+                            <li>Predictive & Prescriptive Analytics</li>
+                            <li>Visualization & Reporting</li>
+                            <li>Self-Service BI Enablement</li>
+                        </ol>
+
+                        <br /><br />
+                        <h3><b>AI-Powered Decision Intelligence</b></h3>
+                        <h3>Operationalize AI to forecast, automate, and scale.</h3>
+                        <ol>
+                            <li>AI/ML Model Development</li>
+                            <li>NLP for Sentiment & Intent</li>
+                            <li>Computer Vision for Visual Data</li>
+                            <li>Forecasting Models (Demand, Revenue, Churn)</li>
+                        </ol>
+                    </div>
+                    <div class="tab-content" id="tab3">
+                        <h3><b>Tailored Insights for High-Precision Sectors</b></h3>
+                        <h3>Our Data & AI solutions are built for industries where agility, compliance, and impact are
+                mission-critical:</h3>
+                        <ol>
+                            <li><b>BFSI</b>: Fraud detection, credit risk modelling, customer segmentation</li>
+                            <li><b>Healthcare & Life Sciences</b>: Predictive diagnostics, patient outcome analysis</li>
+                            <li><b>Retail & Consumer Goods</b>: Inventory optimization, dynamic pricing, personalized
+                                experiences</li>
+                            <li><b>Energy & Utilities</b>: Load forecasting, grid efficiency, predictive maintenance
+                            </li>
+                            <li><b>Manufacturing</b>: Quality control automation, supply chain analytics</li>
+                            <li><b>Logistics</b>: Route optimization, real-time tracking insights</li>
+                        </ol>
+
+                        <br /><br />
+                        <h3>We understand the nuances of each industry-and engineer intelligence solutions that deliver</h3>
+                    </div>
+                    <div class="tab-content" id="tab4">
+                        <h3><b>Accelerate Insight. Amplify Outcomes.</b></h3>
+                        <ol>
+                            <li><b>Business-Aligned Insight</b> - We translate data into outcomes that move your
+                                strategy
+                                forward.</li>
+                            <li><b>Modern Data Stack Expertise</b>- From cloud-native platforms to AI lifecycle
+                                management, we
+                                own the
+                                full
+                                stack.</li>
+                            <li><b>Scalable & Secure</b> - Our architectures grow with you and stay compliant with
+                                evolving
+                                standards.
+                            </li>
+                            <li><b>Accelerated Time-to-Value</b> - Agile delivery means fast, actionable insights
+                                without the
+                                long
+                                setup.</li>
+                            <li><b>End-to-End Execution</b> - From ingestion to AI automation, we handle it all-so you
+                                can focus
+                                on
+                                impact.</li>
+                        </ol>
+
+                        <br /><br />
+                        <h3><b>Ready to Turn Data into a Competitive Edge?</b></h3>
+                        <h3>Let's transform the way you decide. Contact Acesoft Labs for a Discovery Consultation.</h3>
+                    </div>
+                </div>
+
+                <h1>Intelligence That Evolves with Your Business</h1>
+                <h3>Our AI-Powered Solutions Suite delivers end-to-end capabilities to help enterprises unlock the full value of artificial intelligence-at scale and with speed. From intelligent automation to advanced machine learning, our suite is built to drive real business impact across your operations, customers, and strategy.</h3>
+
+                <h3>AI-Powered Solutions Suite:</h3>
+
+                <div class="cubicles">
+                    <div class="cubicle">
+                        <h3><b>Modern Data Architecture & Strategy</b></h3>
+                        <h3>Build a strong foundation for scalable, secure, and cloud-ready data ecosystems.</h3>
+                    </div>
+                    <div class="cubicle">
+                        <h3><b>Advanced Analytics & Business Intelligence</b></h3>
+                        <h3>Unlock deep business insights with descriptive, diagnostic, and predictive analytics tailored to your KPIs.</h3>
+                    </div>
+                    <div class="cubicle">
+                        <h3><b>AI & Machine Learning Solutions</b></h3>
+                        <h3>Build and deploy intelligent models that automate decision-making and deliver measurable business value.</h3>
+                    </div>
+                    <div class="cubicle">
+                        <h3><b>Data Engineering & Pipeline Development</b></h3>
+                        <h3>Streamline data ingestion, transformation, and integration to power consistent, real-time access to insights.</h3>
+                    </div>
+                    <div class="cubicle">
+                        <h3><b>Real-Time Data Processing & Insights</b></h3>
+                        <h3>Leverage streaming data and event-driven frameworks to make decisions as they happen.</h3>
+                    </div>
+                    <div class="cubicle">
+                        <h3><b>Visualization & Insight Delivery</b></h3>
+                        <h3>Empower business users with interactive dashboards and custom reports for data-driven decisions.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="digital-transformation-banner">
+        <h1>Trusted Partner in Digital Transformation</h1>
+        <h3>We deliver digital transformation services that drive intelligent growth, rapid innovation and tangible results.</h3>
+
+        <button onclick="gotoContact()">Contact Us
+            <span><img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"></span>
+        </button>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="image" loading="lazy" src="../images/footer-logo.svg" />
+            </div>
+
+            <div class="footer-info">
+                <div class="address">
+                    <div>
+                        <div class="heading">Contact</div>
+                        <div class="content">
+                            <p>Tel: +91 80 25008900
+                                <br />+91-9900045283
+                                <br />Email: info@Acesoftlabs.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">India</div>
+                        <div class="content">
+                            <p>
+                                <b>Acesoft Labs (India) Pvt. Ltd.</b>
+                                <br />60 Zenith Square 
+                                <br />Marathahalli Outer Ring Rd
+                                <br />R.J. Gardens, Anand Nagar 
+                                <br />Aswath Nagar, Chinnapannahalli
+                                <br />Bengaluru 560037, Karnataka
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">UAE</div>
+                        <div class="content">
+                            <p><b>Acesoft Technologies-FZCO</b>
+                                <br />IFZA Business Park DDP
+                                <br />PO BOX: 342001, Dubai
+                                <br />United Arab Emirates
+                                <br />+971 56 232 9839
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">USA</div>
+                        <div class="content">
+                            <p><b>Acesoft Solution Inc</b>
+                                <br />16192, COASTAL HWYLEWES
+                                <br />DE 19958
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <div>
+                        <div class="heading">Services</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./enterprise-software.html">Enterprise Software Development</a>
+                                </li>
+                                <li><a href="./cloud-solutions.html">Cloud Computing</a></li>
+                                <li><a href="./data-and-ai-driven-bussiness.html">Data & AI-Driven Business
+                                        Insights</a></li>
+                                <li><a href="./engineering-services.html">Engineering Services</a></li>
+                                <li><a href="./professional-services.html">Professional Services</a></li>
+                                <li><a href="./global-delivery-center.html">Global Captive Center (GCC)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Industries</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../industries/bfsi.html">BFSI</a></li>
+                                <li><a href="../industries/energy-and-utilities.html">Energy & Utilities</a>
+                                </li>
+                                <li><a href="../industries/manufacturing.html">Manufacturing</a></li>
+                                <li><a href="../industries/oil-and-gas-industries.html">Oil & Gas</a></li>
+                                <li><a href="../industries/logistics.html">Logistics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Careers</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../career.html#why">Why Acesoft?</a></li>
+                                <li><a href=".,/career.html#work-culture">Work Culture</a></li>
+                                <li><a href="../career.html#current-oppurtunities">Current Opportunities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Products</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../products.html#edukul">Edukul</a></li>
+                                <li><a href="../products.html#edvantage">Edvantage</a></li>
+                                <li><a href="../products.html#edqart">EdQart</a></li>
+                                <li><a href="../products.html#wizaru">Wizaru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyrights">
+            <div class="legal">
+                <a href="../privacy.html">Legal & Privacy</a>
+            </div>
+
+            <div class="copyrights">
+                © 2025 AcesoftLabs, All rights reserved
+            </div>
+
+            <div class="media">
+                <a target="_blank" href="https://www.linkedin.com/company/Acesoft-labs/"><img alt="image" loading="lazy"
+                        src="../images/media-links/media-linkedin.svg" /></a>&nbsp;&nbsp;
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>

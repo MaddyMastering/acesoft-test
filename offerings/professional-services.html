@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#FCD30B" />
+    <meta name="description" content="Acesoft Labs application">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/offerings.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/tabs.css" />
+    <link rel="stylesheet" href="../css/accordion.css" />
+    <title>Acesoft</title>
+    <style>
+        .offering-bullets>.offering-bullet {
+            grid-template-columns: 2rem 1fr;
+        }
+
+        .offering-bullets>.offering-bullet>img {
+            width: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <header>
+        <nav class="navigation">
+            <a href="../index.html" class="logo">
+                <img alt="image" loading="lazy" src="../images/logo.svg" />
+            </a>
+
+            <ul>
+                <li class="has-submenu flex-center">
+                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu">
+                        <div class="submenu-items">
+                             <a href="./enterprise-software.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Enterprise Software Development</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./cloud-solutions.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Cloud Computing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./data-and-ai-driven-bussiness.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Data & AI-Driven Business Insights</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./engineering-services.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Engineering Services (Embedded & Semiconductor)</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./professional-services.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Professional Services</b></p>
+
+                                </div>
+                            </a>
+                            
+                            <a href="./global-delivery-center.html" class="submenu-item">
+                                <div class="image-wrapper"  style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Global Captive Center (GCC)</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="has-submenu flex-center">
+                    <a href="../products.html">Products</a>
+                </li>
+
+                <li class="has-submenu flex-center"><a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu" style="transform: translate(30%, 0);">
+                        <div class="submenu-items">
+                            <a href="../industries/manufacturing.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-manufacturing.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Manufacturing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/energy-and-utilities.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Energy & Utilities</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/oil-and-gas-industries.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-oil-gas.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Oil & Gas</b></p>
+
+                                </div>
+                            </a>
+                           
+                            <a href="../industries/logistics.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-logistics.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Logistics</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/bfsi.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>BFSI</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="flex-center"><a href="../about-us.html">About Us</a></li>
+                <li class="flex-center"><a href="../career.html">Careers</a></li>
+                <li class="flex-center">
+                    <button onclick="gotoContact()">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+                </li>
+            </ul>
+
+            <div class="mobile-only">
+                <div class="mobile-header">
+                    <button onclick="gotoContact()" class="go-to-contact">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+
+                    <div class="mobile-wrapper">
+                        <a class="mobile-hamburger" onclick="toggleMobileMenu()"><img
+                                src="../images/icons/menu.svg" /></a>
+
+                        <div id="mobile-menu" class="mobile-menu">
+                            <ul>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                            </div>
+                                            <a href="./enterprise-software.html">Enterprise Software</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                            </div>
+                                            <a href="./cloud-solutions.html">Cloud Computing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                            </div>
+                                            <a href="./global-delivery-center.html">Global Delivery Control
+                                                (GDC)</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                            </div>
+                                            <a href="./engineering-services.html">Engineering Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                            </div>
+                                            <a href="./data-and-ai-driven-bussiness.html">Data & AI-Driven
+                                                Business Insights</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                            </div>
+                                            <a href="./professional-services.html">Professional Services</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../products.html">Products</a></li>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                            </div>
+                                            <a href="../industries/bfsi.html">BFSI</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                            </div>
+                                            <a href="../industries/energy-and-utilities.html">Energy & Utilities</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-logistics.svg" />
+                                            </div>
+                                            <a href="../industries/logistics.html">Logistics</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-manufacturing.svg" />
+                                            </div>
+                                            <a href="../industries/manufacturing.html">Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-oil-gas.svg" />
+                                            </div>
+                                            <a href="../industries/oil-and-gas-industries.html">Oil & Gas Industries</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../about-us.html">About Us</a></li>
+                                <li><a href="../career.html">Career</a></li>
+                                <li class="on-smallest-device"><a onclick="gotoContact()">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome-banner">
+        <div class="welcome-text">
+            <h1>Unlock speed and scalability with<br /> Domain-Driven Engineering Talent.</h1>
+        </div>
+
+        <div class="welcome-image">
+            <img alt="image" loading="lazy" src="../images/welcome-banner/offering-ps.svg" />
+        </div>
+    </div>
+
+    <div class="intro-bg">
+        <div class="container">
+            <div class="introduction">
+                <div class="highlight">
+                    <h1>On-Demand Expertise to Accelerate Innovation</h1>
+                    <div>
+                        <h3>Our Professional Services empower organizations with the right talent at the right time through flexible, expert-led engagement models. We help you accelerate execution, boost capacity, and drive innovation-without compromising on quality or outcomes.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <br /><br />
+
+            <div class="tabs-container">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="tab1">
+                        <!-- <span>01</span> -->
+                        <h3>Accelerate Innovation with Acesoft Experts</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab2">
+                        <!-- <span>02</span> -->
+                        <h3>Transform Delivery with On-Demand Expertise</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab3">
+                        <!-- <span>03</span> -->
+                        <h3>Scalable Talent for Innovation</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab4">
+                        <!-- <span>04</span> -->
+                        <h3>Scalable Growth. Expert-Led Delivery</h3>
+                    </button>
+                </div>
+
+                <div class="tab-content active" id="tab1">
+                    <h3>Our Professional Services empower businesses to scale faster by providing access to high-caliber engineering talent and industry-specific expertise. Whether you're building new digital products, optimizing legacy systems, or navigating complex transformations, our experts integrate seamlessly with your teams to drive results with speed, precision, and agility.</h3>
+
+                    <br />
+                    <h3>Our Professional Services enable organizations to innovate with confidence and scale with agility. We bring together high-caliber engineering talent, industry-specific knowledge, and flexible engagement models to help you meet evolving business demands-quickly and cost-effectively.</h3>
+
+                    <br />
+                    <h3>Whether you're launching new digital platforms, enhancing user experiences, modernizing legacy systems, or managing complex enterprise transformations, our professionals work as an extension of your team. We ensure end-to-end ownership, fast onboarding, and seamless collaboration to deliver real business value.</h3>
+
+                    <br /><br />
+                    <h3><b>What We Offer:</b></h3>
+
+                    <ol>
+                        <li>Engineering Capacity On-Demand: Rapidly scale your teams with pre-vetted, project-ready
+                            experts
+                            across cloud, AI/ML, DevOps, enterprise software, and emerging tech.</li>
+                        <li>Domain-Aligned Expertise: Specialized consultants with deep understanding of BFSI,
+                            Healthcare,
+                            Manufacturing, Energy, and other verticals.</li>
+                        <li>Agile Delivery at Scale: Flexible delivery models tailored to your project
+                            lifecycle-onshore,
+                            offshore, hybrid, or GDC-based execution.</li>
+                        <li> Full Lifecycle Support: From architecture and development to testing, deployment, and
+                            post-launch support, we manage the complete delivery pipeline.</li>
+                        <li>Faster Time-to-Market: Accelerate product development and reduce release cycles through
+                            proven
+                            methodologies and automation accelerators.</li>
+                        <li>Partnering with Acesoft means gaining a competitive edge-by enhancing delivery speed,
+                            reducing
+                            operational overhead, and aligning technology efforts directly with business goals.</li>
+                    </ol>
+                </div>
+                <div class="tab-content" id="tab2">
+                    <h3>Our Professional Services are structured to empower organizations with the right expertise, at the
+                right time, through adaptable delivery models. We help businesses accelerate execution, enhance
+                operational capacity, and drive innovation without compromising quality.</h3>
+
+                    <h3>As a trusted partner, we offer a comprehensive suite of Professional Services to support your workforce
+                strategy, delivery models, and business transformation goals. Our offerings are designed to provide
+                flexibility, speed, and domain-specific expertise - ensuring measurable outcomes.</h3>
+
+                    <br /><br />
+                    <h3><b>Staff Augmentation</b></h3>
+                    <h3>We provide skilled professionals to complement your in-house team on a temporary or project basis. This
+                model enables quick ramp-up, cost control, and operational agility without the long-term commitment of
+                full-time hiring.</h3>
+                    <ol>
+                        <li>Fast onboarding of domain-relevant talent</li>
+                        <li>Scalable resources for short- or long-term needs</li>
+                        <li>Reduces overhead and hiring complexity</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3><b>Recruitment Process Outsourcing (RPO)</b></h3>
+                    <h3>Our RPO services streamline and manage your end-to-end recruitment function. We act as an extension of
+                your HR team, driving efficiency, improving candidate quality, and reducing time-to-fill.</h3>
+                    <ol>
+                        <li>Dedicated talent acquisition team</li>
+                        <li>Optimized hiring workflows and tools</li>
+                        <li>Scalable hiring aligned with business growth</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3><b>Placement Services</b></h3>
+                    <h3>Acesoft helps you find the right full-time hires with deep domain alignment. We manage the sourcing,
+                screening, and evaluation processes to deliver high-quality, pre-vetted candidates.</h3>
+                    <ol>
+                        <li>Full-time, permanent hiring solutions</li>
+                        <li>Tailored sourcing for niche and leadership roles</li>
+                        <li>Quality assurance through rigorous evaluation</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3><b>Managed Time & Material (T&M)</b></h3>
+                    <h3>We manage teams or resources under a time-based billing model with performance oversight. This model combines flexibility with delivery accountability.</h3>
+                    <ol>
+                        <li>Transparent effort tracking and cost control</li>
+                        <li>Managed team performance with aligned KPIs</li>
+                        <li>Ideal for evolving project scopes</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3><b>Shared Services</b></h3>
+                    <h3>Our Shared Services model centralizes key support functions - from IT operations to HR and finance - delivering cost efficiencies, standardization, and process optimization.</h3>
+                    <ol>
+                        <li>Centralized service hubs across functions</li>
+                        <li>Cost-effective and SLA-driven delivery</li>
+                        <li>Enhanced service consistency and compliance</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3><b>Fixed Price Projects</b></h3>
+                    <h3>For well-defined scopes and outcomes, we offer fixed-price execution with end-to-end responsibility.
+                Ideal for milestone-driven or turnkey engagements.</h3>
+                    <ol>
+                        <li>Clear deliverables, timeline, and budget</li>
+                        <li>Full accountability from planning to delivery</li>
+                        <li>Best for defined requirements and minimal changes</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3><b>Payroll Services</b></h3>
+                    <h3>Acesoft takes care of end-to-end payroll processing for your outsourced or in-house workforce - ensuring
+                compliance, accuracy, and timely payments.</h3>
+                    <ol>
+                        <li>Statutory compliance and tax handling</li>
+                        <li>Payslip generation, disbursals, and reporting</li>
+                        <li>Confidential, secure payroll processing</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3><b>Hire, Train & Deploy (HTD)</b></h3>
+                    <h3>We source fresh or junior talent, train them as per your project needs, and deploy them for immediate
+                contribution. This model ensures skill readiness and cultural alignment.</h3>
+                    <ol>
+                        <li>Customized training based on client tech stack</li>
+                        <li>Pre-assessed candidates aligned to roles</li>
+                        <li>Reduces time-to-productivity and onboarding gaps</li>
+                    </ol>
+                </div>
+                <div class="tab-content" id="tab3">
+                    <h3>We believe professional services are not just about providing resources - it's about delivering measurable business value. Our teams work closely with your stakeholders, maintaining full ownership of deliverables and adapting quickly to evolving needs:</h3>
+                    <ol>
+                        <li><b>Ownership & Collaboration</b>: From advisory roles to full project execution, our
+                            professionals
+                            align with your priorities and goals, ensuring accountability and transparency.</li>
+                        <li><b>Agile Delivery</b>: We use iterative and flexible methodologies to manage scope changes
+                            and
+                            accelerate
+                            time-to-value.</li>
+                        <li><b>Performance Metrics</b>: Clear KPIs and progress tracking give you real-time insights
+                            into
+                            project
+                            status and impact.</li>
+                        <li><b>Quality & Compliance</b>: Adherence to industry best practices, security standards, and
+                            regulatory
+                            requirements to safeguard your business</li>
+                    </ol>
+                </div>
+                <div class="tab-content" id="tab4">
+                    <ol>
+                        <li><b>Deep Domain and Industry Expertise</b>: Our consultants and specialists bring proven
+                            experience across
+                            sectors including technology, finance, healthcare, manufacturing, and more.</li>
+                        <li><b>Customized Engagement Models</b>: We tailor our services to fit your project size,
+                            complexity, and
+                            organizational culture.</li>
+                        <li><b>Rapid Mobilization</b>: Pre-qualified professionals ensure accelerated ramp-up with
+                            minimal
+                            onboarding
+                            time.</li>
+                        <li><b>End-to-End Support</b>: From strategy and design through implementation and ongoing
+                            operations, we provide
+                            seamless service continuity.</li>
+                        <li><b>Focus on Innovation and Efficiency</b>: We leverage best practices and emerging
+                            technologies
+                            to help you
+                            stay competitive and agile.</li>
+                    </ol>
+
+                    <br /><br />
+                    <h3>Partner with us to transform your business challenges into sustainable growth opportunities through
+                expert professional services.</h3>
+                    <h3>Get in touch today to explore how we can collaborate for success.</h3>
+                </div>
+            </div>
+
+            <br /><br />
+            <div class="introduction">
+                <h2>Accountability, Agility, and Outcome - Driven Delivery</h2>
+                <h3>We believe professional services are not just about providing resources - it’s about delivering
+                measurable business value. Our teams work closely with your stakeholders, maintaining full ownership of
+                deliverables and adapting quickly to evolving needs:
+            </h3>
+            </div>
+
+            <br /><br />
+
+            <div class="offering-bullets">
+                <div class="offering-bullet">
+                    <img alt="image" loading="lazy" src="../images/offerings/colored-arrow.svg" />
+                    <div class="header">
+                        <h3>Ownership & Collaboration</h3>
+                        <p>From advisory roles to full project execution, our professionals align with your priorities and
+                    goals, ensuring accountability and transparency.</p>
+                    </div>
+
+                </div>
+                <div class="offering-bullet">
+                    <img alt="image" loading="lazy" src="../images/offerings/colored-arrow.svg" />
+                    <div class="header">
+                        <h3>Agile Delivery</h3>
+                        <p>We use iterative and flexible methodologies to manage scope changes and accelerate time-to-value.</p>
+                    </div>
+                </div>
+                <div class="offering-bullet">
+                    <img alt="image" loading="lazy" src="../images/offerings/colored-arrow.svg" />
+                    <div class="header">
+                        <h3>Performance Metrics</h3>
+                        <p>Clear KPIs and progress tracking give you real-time insights into project status and impact.</p>
+                    </div>
+                </div>
+                <div class="offering-bullet">
+                    <img alt="image" loading="lazy" src="../images/offerings/colored-arrow.svg" />
+                    <div class="header">
+                        <h3>Quality & Compliance</h3>
+                        <p>Adherence to industry best practices, security standards, and regulatory requirements to safeguard
+                    your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="digital-transformation-banner">
+        <h1>Trusted Partner in Digital Transformation</h1>
+        <h3>We deliver digital transformation services that drive intelligent growth, rapid innovation and tangible results.</h3>
+
+        <button onclick="gotoContact()">Contact Us
+            <span><img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"></span>
+        </button>
+    </div>
+
+    <div class="footer-divider"></div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="image" loading="lazy" src="../images/footer-logo.svg" />
+            </div>
+
+            <div class="footer-info">
+                <div class="address">
+                    <div>
+                        <div class="heading">Contact</div>
+                        <div class="content">
+                            <p>Tel: +91 80 25008900
+                                <br />+91-9900045283
+                                <br />Email: info@Acesoftlabs.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">India</div>
+                        <div class="content">
+                            <p>
+                                <b>Acesoft Labs (India) Pvt. Ltd.</b>
+                                <br />60 Zenith Square 
+                                <br />Marathahalli Outer Ring Rd
+                                <br />R.J. Gardens, Anand Nagar 
+                                <br />Aswath Nagar, Chinnapannahalli
+                                <br />Bengaluru 560037, Karnataka
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">UAE</div>
+                        <div class="content">
+                            <p><b>Acesoft Technologies-FZCO</b>
+                                <br />IFZA Business Park DDP
+                                <br />PO BOX: 342001, Dubai
+                                <br />United Arab Emirates
+                                <br />+971 56 232 9839
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">USA</div>
+                        <div class="content">
+                            <p><b>Acesoft Solution Inc</b>
+                                <br />16192, COASTAL HWYLEWES
+                                <br />DE 19958
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <div>
+                        <div class="heading">Services</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./enterprise-software.html">Enterprise Software Development</a>
+                                    </li>
+                                    <li><a href="./cloud-solutions.html">Cloud Computing</a></li>
+                                    <li><a href="./data-and-ai-driven-bussiness.html">Data & AI-Driven Business
+                                            Insights</a></li>
+                                    <li><a href="./engineering-services.html">Engineering Services</a></li>
+                                    <li><a href="./professional-services.html">Professional Services</a></li>
+                                    <li><a href="./global-delivery-center.html">Global Captive Center (GCC)</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Industries</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../industries/manufacturing.html">Manufacturing</a></li>
+                                <li><a href="../industries/energy-and-utilities.html">Energy & Utilities</a></li>
+                                <li><a href="../industries/oil-and-gas-industries.html">Oil & Gas</a></li>
+                                <li><a href="../industries/logistics.html">Logistics</a></li>
+                                <li><a href="../industries/bfsi.html">BFSI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Careers</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../career.html#why">Why Acesoft?</a></li>
+                                <li><a href=".,/career.html#work-culture">Work Culture</a></li>
+                                <li><a href="../career.html#current-oppurtunities">Current Opportunities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Products</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../products.html#edukul">Edukul</a></li>
+                                <li><a href="../products.html#edvantage">Edvantage</a></li>
+                                <li><a href="../products.html#edqart">EdQart</a></li>
+                                <li><a href="../products.html#wizaru">Wizaru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyrights">
+            <div class="legal">
+                <a href="../privacy.html">Legal & Privacy</a>
+            </div>
+
+            <div class="copyrights">
+                © 2025 AcesoftLabs, All rights reserved
+            </div>
+
+            <div class="media">
+                <a target="_blank" href="https://www.linkedin.com/company/Acesoft-labs/"><img alt="image" loading="lazy"
+                        src="../images/media-links/media-linkedin.svg" /></a>&nbsp;&nbsp;
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>

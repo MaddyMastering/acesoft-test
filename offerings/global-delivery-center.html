@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#FCD30B" />
+    <meta name="description" content="Acesoft Labs application">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/offerings.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <link rel="stylesheet" href="../css/tabs.css" />
+    <link rel="stylesheet" href="../css/accordion.css" />
+
+    <title>Acesoft</title>
+    <style>
+        .cubicles>.cubicle {
+            flex-direction: column;
+            align-items: start;
+            gap: 0.5rem;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <header>
+        <nav class="navigation">
+            <a href="../index.html" class="logo">
+                <img alt="image" loading="lazy" src="../images/logo.svg" />
+            </a>
+
+            <ul>
+                <li class="has-submenu flex-center">
+                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu">
+                        <div class="submenu-items">
+                            <a href="./enterprise-software.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Enterprise Software Development</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./cloud-solutions.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Cloud Computing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./data-and-ai-driven-bussiness.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Data & AI-Driven Business Insights</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./engineering-services.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Engineering Services (Embedded & Semiconductor)</b></p>
+
+                                </div>
+                            </a>
+                            <a href="./professional-services.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Professional Services</b></p>
+
+                                </div>
+                            </a>
+
+                            <a href="./global-delivery-center.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Global Captive Center (GCC)</b></p>
+
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="has-submenu flex-center">
+                    <a href="../products.html">Products</a>
+                </li>
+
+                <li class="has-submenu flex-center"><a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                    <div class="submenu" style="transform: translate(30%, 0);">
+                        <div class="submenu-items">
+                            <a href="../industries/manufacturing.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-manufacturing.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Manufacturing</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/energy-and-utilities.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Energy & Utilities</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/oil-and-gas-industries.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-oil-gas.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Oil & Gas</b></p>
+
+                                </div>
+                            </a>
+
+                            <a href="../industries/logistics.html" class="submenu-item">
+                                <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-logistics.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>Logistics</b></p>
+
+                                </div>
+                            </a>
+                            <a href="../industries/bfsi.html" class="submenu-item">
+                                <div class="image-wrapper">
+                                    <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                </div>
+                                <div class="info">
+                                    <p><b>BFSI</b></p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="flex-center"><a href="../about-us.html">About Us</a></li>
+                <li class="flex-center"><a href="../career.html">Careers</a></li>
+                <li class="flex-center">
+                    <button onclick="gotoContact()">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+                </li>
+            </ul>
+
+            <div class="mobile-only">
+                <div class="mobile-header">
+                    <button onclick="gotoContact()" class="go-to-contact">
+                        <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
+                            style="vertical-align: middle;" />
+                        &nbsp;Reach
+                        us</button>
+
+                    <div class="mobile-wrapper">
+                        <a class="mobile-hamburger" onclick="toggleMobileMenu()"><img
+                                src="../images/icons/menu.svg" /></a>
+
+                        <div id="mobile-menu" class="mobile-menu">
+                            <ul>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Services&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-esp.svg" />
+                                            </div>
+                                            <a href="./enterprise-software.html">Enterprise Software</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-cc.svg" />
+                                            </div>
+                                            <a href="./cloud-solutions.html">Cloud Computing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-gdc.svg" />
+                                            </div>
+                                            <a href="./global-delivery-center.html">Global Delivery Control
+                                                (GDC)</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-es.svg" />
+                                            </div>
+                                            <a href="./engineering-services.html">Engineering Services</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ai.svg" />
+                                            </div>
+                                            <a href="./data-and-ai-driven-bussiness.html">Data & AI-Driven
+                                                Business Insights</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-ps.svg" />
+                                            </div>
+                                            <a href="./professional-services.html">Professional Services</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../products.html">Products</a></li>
+                                <li class="dropdown" onclick="toggleDropdown(this)">
+                                    <a>Industries&nbsp;&nbsp;<img alt="image" loading="lazy"
+                                            src="../images/icons/dropdown-icon.svg" /></a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-bfsi.svg" />
+                                            </div>
+                                            <a href="../industries/bfsi.html">BFSI</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy" src="../images/icons/menu-energy.svg" />
+                                            </div>
+                                            <a href="../industries/energy-and-utilities.html">Energy & Utilities</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-logistics.svg" />
+                                            </div>
+                                            <a href="../industries/logistics.html">Logistics</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper" style="background: rgba(73, 151, 234, 1);">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-manufacturing.svg" />
+                                            </div>
+                                            <a href="../industries/manufacturing.html">Manufacturing</a>
+                                        </li>
+                                        <li>
+                                            <div class="image-wrapper">
+                                                <img alt="image" loading="lazy"
+                                                    src="../images/icons/menu-oil-gas.svg" />
+                                            </div>
+                                            <a href="../industries/oil-and-gas-industries.html">Oil & Gas Industries</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="../about-us.html">About Us</a></li>
+                                <li><a href="../career.html">Career</a></li>
+                                <li class="on-smallest-device"><a onclick="gotoContact()">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="welcome-banner">
+        <div class="welcome-text">
+            <h1>Building Global Value <br />Through Captive Delivery</h1>
+        </div>
+
+        <div class="welcome-image">
+            <img alt="image" loading="lazy" src="../images/welcome-banner/offering-gdc.svg" />
+        </div>
+    </div>
+
+    <div class="intro-bg">
+        <div class="container">
+            <div class="introduction">
+                <div class="highlight">
+                    <h1>Scalable Global Delivery for Faster Enterprise Execution</h1>
+                    <h3>Our Global Capability Center (GCC) empowers enterprises to scale transformation initiatives with speed and precision-without compromising on quality. Our hybrid delivery model blends regional proximity with global reach, enabling faster execution, resource flexibility, and reduced operational overhead. With dedicated, domain-aligned teams across locations, we ensure seamless delivery and consistent alignment with your business goals.</h3>
+                </div>
+            </div>
+
+            <br /><br />
+            <div class="tabs-container">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="tab1">
+                        <!-- <span>01</span> -->
+                        <h3>Global Models for Faster Delivery</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab2">
+                        <!-- <span>02</span> -->
+                        <h3>Hybrid GCC: Built for Speed & Scale</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab3">
+                        <!-- <span>03</span> -->
+                        <h3>Enterprise Delivery with Agility & Governance</h3>
+                    </button>
+                    <button class="tab-button" data-tab="tab4">
+                        <!-- <span>04</span> -->
+                        <h3>Efficient Global Captive Center</h3>
+                    </button>
+                </div>
+
+                <div class="tab-content active" id="tab1">
+                    <h3>We empower enterprises with a globally distributed, execution-ready delivery model that
+                    combines local engagement with offshore scalability. Built for speed, aligned to precision, and
+                    backed by real-time governance-our GCC ensures your digital initiatives never stall.</h3>
+                </div>
+                <div class="tab-content" id="tab2">
+                    <h3>Our Global Captive Center (GCC) enables seamless transformation across geographies-without
+                compromising speed, quality, or control. With a hybrid execution model, we integrate regional presence
+                and offshore delivery to ensure uninterrupted progress, optimized costs, and alignment with enterprise
+                goals.</h3>
+
+                    <br /><br />
+                    <h3><b>24x7 Delivery Capability</b></h3>
+                    <ul>
+                        <li>Follow-the-sun model enables continuous development and support</li>
+                        <li>Seamless time-zone handovers via structured communication protocols</li>
+                        <li>Real-time progress tracking across global workstreams</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Onshore-Offshore Hybrid Execution</b></h3>
+                    <ul>
+                        <li>On-site leads ensure close client engagement and alignment</li>
+                        <li>Offshore teams execute delivery with technical depth and agility</li>
+                        <li>Unified version control, secure data environments, and coordinated workflows</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Cost-Efficient Scalability</b></h3>
+                    <ul>
+                        <li>Elastic resource models tuned to project milestones and velocity</li>
+                        <li>Fixed-cost and consumption-based pricing options</li>
+                        <li>KPI-driven governance for transparent delivery health</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Rapid Team Mobilization</b></h3>
+                    <ul>
+                        <li>Domain-aligned engineers onboarded from pre-vetted pools</li>
+                        <li>Secure access and workflow orientation built into ramp-up</li>
+                        <li>Knowledge transfer ensures continuity across transitions</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="tab3">
+                    <h3>Our GCC framework supports enterprise-grade digital execution through an integrated model that
+                balances responsiveness, technical depth, and operational discipline. Designed to match business
+                objectives-not generic outsourcing templates-our delivery approach scales with precision.</h3>
+
+                    <br /><br />
+                    <h3><b>Delivery Aligned to Business Objectives</b></h3>
+                    <ul>
+                        <li>Execution models customized to internal SLAs, compliance, and go-to-market targets</li>
+                        <li>Agile workflows with traceability and change-resilience built-in</li>
+                        <li>Delivery metrics tied to real business KPIs</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Infrastructure for Real-Time Collaboration</b></h3>
+                    <ul>
+                        <li>Cloud-native platforms ensure secure, real-time development</li>
+                        <li>Continuous coordination across global teams via shared environments</li>
+                        <li>Zero-latency handovers with synchronized documentation and access</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Embedded Governance and Quality Controls</b></h3>
+                    <ul>
+                        <li>Built-in QA gates across development lifecycle</li>
+                        <li>Escalation clarity and checkpoint-based review cadence</li>
+                        <li>Process frameworks meet internal and client-specific standards</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Hybrid Engagement with Regional Discipline</b></h3>
+                    <ul>
+                        <li>Local client-facing teams ensure contextual accuracy and domain fit</li>
+                        <li>Global engineering talent delivers implementation at scale</li>
+                        <li>Seamless coordination across onshore-offshore pipelines</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Scale Without Trade-Off</b></h3>
+                    <ul>
+                        <li>Scale team size up/down without affecting performance or clarity</li>
+                        <li>Adaptive resource planning based on workload, not guesswork</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Mobilization with Technical Alignment</b></h3>
+                    <ul>
+                        <li>Fast-track onboarding of engineers aligned by skill and domain</li>
+                        <li>Process-bound access provisioning, orientation, and delivery integration</li>
+                        <li>Structured knowledge retention to ensure project stability</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="tab4">
+                    <h3>Our GCC isn't outsourcing. It's an engineered model for delivery precision across global
+                programs-offering a structured way to execute at scale, with speed, and without losing control.</h3>
+
+                    <br />
+                    <h3><b>Global Captive with Regional Context</b></h3>
+                    <ul>
+                        <li>Delivery center with regional knowledge baked into execution</li>
+                        <li>Compliance-aware methods aligned with industry and country-specific needs</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Scalability Without Performance Risk</b></h3>
+                    <ul>
+                        <li>Capacity flexes with project needs-velocity and quality remain uncompromised</li>
+                        <li>Resources scale in alignment with timeline, scope, and roadmap</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Aligned Resources, Not Generalists</b></h3>
+                    <ul>
+                        <li>Teams staffed by domain-specific experts, not interchangeable roles</li>
+                        <li>Roles mapped to both technical and industry relevance</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3><b>Low-Touch Management, High-Touch Control</b></h3>
+                    <ul>
+                        <li>Built-in leadership and governance reduces client-side oversight burden</li>
+                        <li>Transparent reporting, feedback loops, and escalation paths ensure control without
+                            micromanagement</li>
+                    </ul>
+
+                    <br /><br />
+                    <h3>Let us power your global execution with smart processes, deep talent, and engineering rigor.</h3>
+                </div>
+            </div>
+
+            <br /><br />
+            <div class="introduction">
+                <h1>Acesoft's Model for Scalable Global Captive and Execution Efficiency</h1>
+                <h3>We deliver enterprise programs through a globally aligned execution model structured for velocity,
+                continuity and scalability. We integrate regional expertise with delivery control to maintain precision
+                across shifting timelines, technologies and operational constraints. Each engagement reflects real
+                business needs, and not abstract outsourcing.</h3>
+                <h3>As you will see, we approach global delivery through the following:</h3>
+            </div>
+
+            <br /><br />
+
+            <div class="cubicles">
+                <div class="cubicle">
+                    <h3><b>Delivery Aligned to Business Objectives</b></h3>
+                    <h3>We tailor execution frameworks to real-world conditions, timelines, and compliance needs-ensuring every deliverable supports measurable business outcomes with traceable, adaptable workflows.</h3>
+                </div>
+                <div class="cubicle">
+                    <h3><b>Infrastructure Built for Real-Time Collaboration</b></h3>
+                    <h3>Our Global Capability Center enables seamless, secure, and real-time collaboration across time zones-powered by cloud-native platforms and continuous communication.</h3>
+                </div>
+                <div class="cubicle">
+                    <h3><b>Operational Processes with Built-In Governance</b></h3>
+                    <h3>Acesoft enforces disciplined delivery with built-in quality checks, clear escalation paths, and structured reviews-ensuring stability and performance at every stage.</h3>
+                </div>
+                <div class="cubicle">
+                    <h3><b>Onshore-Offshore Hybrid Engagement</b></h3>
+                    <h3>We blend local collaboration with offshore execution, ensuring domain alignment, technical depth, and seamless global delivery.</h3>
+                </div>
+                <div class="cubicle">
+                    <h3><b>Scalability Without Performance Trade-Off</b></h3>
+                    <h3>Our model scales with your needs-balancing cost, speed, and quality while aligning resources to real-time demands.</h3>
+                </div>
+                <div class="cubicle">
+                    <h3><b>Team Mobilization with Technical Alignment</b></h3>
+                    <h3>Acesoft accelerates team onboarding with domain-ready talent and smooth transitions-ensuring zero disruption to ongoing delivery.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="digital-transformation-banner">
+        <h1>Trusted Partner in Digital Transformation</h1>
+        <h3>We deliver digital transformation services that drive intelligent growth, rapid innovation and tangible results.</h3>
+
+        <button onclick="gotoContact()">Contact Us
+            <span><img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"></span>
+        </button>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img alt="image" loading="lazy" src="../images/footer-logo.svg" />
+            </div>
+
+            <div class="footer-info">
+                <div class="address">
+                    <div>
+                        <div class="heading">Contact</div>
+                        <div class="content">
+                            <p>Tel: +91 80 25008900
+                                <br />+91-9900045283
+                                <br />Email: info@Acesoftlabs.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">India</div>
+                        <div class="content">
+                            <p>
+                                <b>Acesoft Labs (India) Pvt. Ltd.</b>
+                                <br />60 Zenith Square 
+                                <br />Marathahalli Outer Ring Rd
+                                <br />R.J. Gardens, Anand Nagar 
+                                <br />Aswath Nagar, Chinnapannahalli
+                                <br />Bengaluru 560037, Karnataka
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">UAE</div>
+                        <div class="content">
+                            <p><b>Acesoft Technologies-FZCO</b>
+                                <br />IFZA Business Park DDP
+                                <br />PO BOX: 342001, Dubai
+                                <br />United Arab Emirates
+                                <br />+971 56 232 9839
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="heading">USA</div>
+                        <div class="content">
+                            <p><b>Acesoft Solution Inc</b>
+                                <br />16192, COASTAL HWYLEWES
+                                <br />DE 19958
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <div>
+                        <div class="heading">Services</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="./enterprise-software.html">Enterprise Software Development</a>
+                                </li>
+                                <li><a href="./cloud-solutions.html">Cloud Computing</a></li>
+                                <li><a href="./data-and-ai-driven-bussiness.html">Data & AI-Driven Business
+                                        Insights</a></li>
+                                <li><a href="./engineering-services.html">Engineering Services</a></li>
+                                <li><a href="./professional-services.html">Professional Services</a></li>
+                                <li><a href="./global-delivery-center.html">Global Captive Center (GCC)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Industries</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../industries/manufacturing.html">Manufacturing</a></li>
+                                <li><a href="../industries/energy-and-utilities.html">Energy & Utilities</a></li>
+                                <li><a href="../industries/oil-and-gas-industries.html">Oil & Gas</a></li>
+                                <li><a href="../industries/logistics.html">Logistics</a></li>
+                                <li><a href="../industries/bfsi.html">BFSI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Careers</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../career.html#why">Why Acesoft?</a></li>
+                                <li><a href=".,/career.html#work-culture">Work Culture</a></li>
+                                <li><a href="../career.html#current-oppurtunities">Current Opportunities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="heading">Products</div>
+                        <div class="content">
+                            <ul>
+                                <li><a href="../products.html#edukul">Edukul</a></li>
+                                <li><a href="../products.html#edvantage">Edvantage</a></li>
+                                <li><a href="../products.html#edqart">EdQart</a></li>
+                                <li><a href="../products.html#wizaru">Wizaru</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyrights">
+            <div class="legal">
+                <a href="../privacy.html">Legal & Privacy</a>
+            </div>
+
+            <div class="copyrights">
+                © 2025 AcesoftLabs, All rights reserved
+            </div>
+
+            <div class="media">
+                <a target="_blank" href="https://www.linkedin.com/company/Acesoft-labs/"><img alt="image" loading="lazy"
+                        src="../images/media-links/media-linkedin.svg" /></a>&nbsp;&nbsp;
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>

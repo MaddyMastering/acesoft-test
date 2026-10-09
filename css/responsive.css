@@ -1,0 +1,509 @@
+@media (max-width: 1441px) {
+    .explore {
+        padding: 6rem 8rem 14rem 8rem;
+    }
+
+    .offering {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .offering>img {
+        width: 4rem;
+    }
+
+    .offering>p {
+        padding: 0 0.5rem;
+    }
+
+    .explore>.explore-info>.explore-content>.heading>img {
+        width: 90%;
+    }
+
+    .sectors {
+        padding: 4rem 12rem 0 12rem;
+    }
+
+    .semiconductor,
+    .ai {
+        padding: 4rem;
+        gap: 4rem;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .sectors>.sectors-info {
+        gap: 4rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .engagements {
+        padding: 4rem 10rem;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .digital-transformation-banner {
+        padding: 2rem;
+    }
+}
+
+
+/* hi-res laptops and desktops */
+@media (max-width:1281px) {
+    .sector-item>span {
+        font-size: 10px;
+    }
+
+    .offerings>.offering-image-row {
+        padding: 0 1rem;
+    }
+
+    .explore {
+        grid-template-columns: 1fr;
+    }
+
+    .semiconductor {
+        gap: 5rem;
+        padding: 4rem 6rem;
+    }
+
+    .ai {
+        margin: 0 4rem;
+        padding: 4rem 6rem;
+        gap: 5rem;
+    }
+
+    .sectors {
+        padding: 4rem 6rem 0 6rem;
+    }
+
+    .sectors>.sectors-info {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .engagements {
+        grid-template-columns: 1fr;
+        padding: 2rem 6rem;
+        gap: 1rem;
+    }
+
+    .digital-transformation-banner>button {
+        font-size: 1.25rem;
+    }
+
+    footer {
+        padding: 4rem 3rem 2rem 3rem;
+    }
+
+    footer>.footer-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    footer>.footer-content>.footer-logo {
+        padding: 0 1rem;
+    }
+
+    footer>.footer-content>.footer-info {
+        padding: 0 1rem;
+    }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (max-width:1025px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .navigation>ul {
+        display: none;
+    }
+
+    nav {
+        height: 4rem;
+        margin: 0 2rem;
+    }
+
+    .navigation>.logo {
+        margin: 0 1rem;
+    }
+
+
+    .navigation>.logo>img {
+        width: 80%;
+    }
+
+    .welcome-banner {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .welcome-text {
+        padding: 0;
+        margin-left: 3rem;
+    }
+
+    .welcome-image>img {
+        width: 100vw;
+    }
+
+    .offerings>.marquee-wrapper {
+        width: 70%;
+    }
+
+    .offerings>.offering-image-row {
+        gap: 0;
+        margin-bottom: 2rem;
+    }
+
+    .container {
+        margin: 2rem;
+    }
+
+    .explore {
+        padding: 4rem 6rem 16rem 6rem;
+        gap: 6rem;
+    }
+
+    .explore>.explore-info {
+        flex-direction: row-reverse;
+        gap: 2rem;
+
+    }
+
+    .explore>.explore-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .explore>.explore-info>.explore-image {
+        margin-top: 0;
+    }
+
+    .explore>.explore-info>.explore-image>img {
+        width: 15rem;
+    }
+
+    .ai:before {
+        background: none;
+    }
+
+    .semiconductor,
+    .ai {
+        gap: 2rem;
+        padding: 4rem;
+        grid-template-columns: 1fr;
+    }
+
+    .semiconductor>.semiconductor-img,
+    .ai>.aiml-img {
+        justify-content: center;
+    }
+
+    .semiconductor-img svg,
+    .aiml-img svg {
+        width: 60%;
+    }
+
+    .ai>.ai-info {
+        grid-row-start: 1;
+    }
+
+    .sectors {
+        padding: 4rem 4rem 0 4rem;
+    }
+
+    .sectors>.sectors-image-row {
+        padding: 2rem 0;
+    }
+
+    .engagements {
+        padding: 4rem 4rem;
+    }
+
+    .engagement-item {
+        width: 100%;
+    }
+
+    .offering {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .offering>img {
+        width: 3rem;
+    }
+
+    .offering>p {
+        padding: 0 1rem;
+    }
+
+    .offerings>.marquee-wrapper>.trusters-image-row img {
+        width: 80%;
+    }
+
+    .offerings>.marquee-wrapper>.trusters-image-row {
+        gap: 0.5rem;
+    }
+
+    .digital-transformation-banner {
+        padding: 2rem;
+    }
+
+    footer>.footer-content>.footer-info>.address,
+    footer>.footer-content>.footer-info>.links {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    footer>.footer-copyrights {
+        grid-template-columns: 1fr;
+    }
+
+    footer>.footer-copyrights>div {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    footer>.footer-copyrights>.media {
+        justify-content: center;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width:961px) {
+    .welcome-banner {
+        grid-template-columns: 1fr;
+    }
+
+    .welcome-text {
+        padding: 1rem 0;
+        margin-left: 3rem;
+    }
+
+    .offerings>.marquee-wrapper>.trusters-image-row {
+        gap: 0;
+    }
+
+    .digital-transformation-banner {
+        padding: 2rem;
+    }
+
+    .digital-transformation-banner>p {
+        font-size: 24px;
+    }
+
+    .digital-transformation-banner>button {
+        padding: 0.6rem 1rem;
+    }
+
+    footer {
+        padding: 1.75rem 0.75rem 1rem 0.75rem;
+        font-size: 12px;
+    }
+
+    .footer-divider {
+        height: 2rem;
+    }
+
+    footer .heading {
+        font-size: 18px;
+    }
+
+    .explore>.explore-items {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (max-width:641px) {
+    .mobile-menu>ul>li>a {
+        width: 80vw;
+    }
+
+    .explore>.explore-info {
+        flex-direction: column;
+    }
+
+    .welcome-text {
+        margin-left: 2rem;
+    }
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (max-width:481px) {
+    nav {
+        margin: 0 1rem;
+    }
+
+    .navigation>.logo>img {
+        width: 70%;
+    }
+
+    .mobile-header {
+        gap: 1rem;
+    }
+
+    .mobile-only>.mobile-header>button {
+        font-size: 0.75rem;
+    }
+
+    .mobile-only>.mobile-header>button>img {
+        width: 0.75rem;
+    }
+
+    .go-to-contact {
+        display: none;
+    }
+
+    .on-smallest-device {
+        display: flex;
+    }
+
+    .welcome-banner {
+        gap: 1rem;
+    }
+
+    .welcome-text {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .container {
+        margin: 2rem;
+    }
+
+    .offerings {
+        padding-top: 1rem;
+    }
+
+    .offerings>.offering-image-row {
+        gap: 0;
+        padding: 0;
+    }
+
+    .offering {
+        width: 8rem;
+        height: 8rem;
+        gap: 1rem;
+    }
+
+    .offering>p {
+        padding: 0 0.5rem;
+    }
+
+    .offerings>.marquee-wrapper {
+        padding: 0 1rem;
+        width: 80%;
+        mask-image: linear-gradient(to right, transparent, black 5rem, black calc(100% - 5rem), transparent);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 5rem, black calc(100% - 5rem), transparent);
+    }
+
+    .trusters {
+        margin: 0.5rem;
+    }
+
+    .explore>.explore-items>.explore-item>.heading {
+        gap: 1rem;
+    }
+
+    .explore {
+        padding: 2rem 2rem 16rem 2rem;
+        gap: 2rem;
+    }
+
+    .explore>.explore-items {
+        gap: 1.5rem;
+    }
+
+    .explore>.explore-items>.explore-item {
+        padding: 1rem 0;
+    }
+
+
+    .semiconductor {
+        gap: 1rem;
+        margin: -10rem 1rem 2rem 1rem;
+    }
+
+    .ai {
+        gap: 1rem;
+        padding: 4rem 2rem;
+    }
+
+
+    .semiconductor,
+    .ai {
+        padding: 2rem;
+    }
+
+    .ai {
+        margin: 1rem;
+    }
+
+    .sectors {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .sectors>.sectors-image-row {
+        padding: 1rem 0;
+    }
+
+    .engagements {
+        padding: 2rem;
+    }
+
+    .digital-transformation-banner>button {
+        font-size: 1rem;
+    }
+
+    .digital-transformation-banner>button>span>img {
+        width: 0.8rem;
+    }
+
+    footer>.footer-content>.footer-info>.address,
+    footer>.footer-content>.footer-info>.links {
+        gap: 2rem 0.5rem;
+    }
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width:321px) {
+    .navigation>.logo>img {
+        width: 80%;
+    }
+
+    .offering {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .offering>img {
+        width: 2rem;
+    }
+
+    .offering>p {
+        padding: 0;
+    }
+
+    .semiconductor,
+    .ai {
+        padding: 2rem;
+    }
+
+    .ai {
+        margin: 1rem;
+    }
+
+    .semiconductor {
+        margin: -10rem 1rem 2rem 1rem;
+    }
+
+    .engagements {
+        padding: 1.5rem;
+    }
+
+    .sectors {
+        padding: 1.5rem 1.5rem 0 1.5rem;
+    }
+}

@@ -1,0 +1,25 @@
+3. Change trusters logo to colored versions. 
+
+4. Yellow color box height should be reduced.
+
+6. explore content image should in vertically centered 
+
+7. In footer careers and products  it should scroll exact content [ Done ]
+
+8. Check trusters animation [ Done ]
+
+9. Splider autoplay should work [ Done ]
+
+10. Update footer in all pages from home page [ Done ]
+
+11. Update logo in all pages from home page [ Done ]
+
+12. Update welcome banner size in all pages from - offering - enterprise software [ Done ]
+
+13. Update numbering in tabs content
+
+14. Update font thin in tabs content [ Done ]
+
+15. Update about content [ Done ]
+
+16. Mahi needs to update tabs in energy and logistics
