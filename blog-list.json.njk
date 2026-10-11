@@ -3,7 +3,12 @@
 {
 "title": {{ post.data.title | dump | safe }},
 "description": {{ post.data.description | dump | safe }},
-"date": {{ post.data.date | dump | safe }},
+"date": {{ post.date.toLocaleDateString("en-GB", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+  timeZone: "UTC"
+}) | dump | safe }},
 "url": {{ post.url | dump | safe }}
 }{% if not loop.last %},{% endif %}
 {% endfor %}
