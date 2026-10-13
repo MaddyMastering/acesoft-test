@@ -368,6 +368,10 @@
 
                     container.innerHTML = blogs.map(blog => `
             <article class="blog-card">
+                <div class="card-image">
+                    ${blog.image ? `<img src="${escapeHtml(blog.image)}" />` : `<img src="../images/favicon.png" />`}
+                </div> 
+                <div class="card-content">   
                 <h2>
                     <a href="/acesoft-test${blog.url}">
                         ${escapeHtml(blog.title)}
@@ -381,6 +385,7 @@
                             : ""}
 
                 <a href="/acesoft-test${blog.url}">Read more →</a>
+                </div>
             </article>
         `).join("");
 
