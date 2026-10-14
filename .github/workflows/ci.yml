@@ -1,3 +1,4 @@
+
 name: CI
 
 on:
@@ -13,6 +14,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,3 +30,11 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-site
+          path: _site/
+          retention-days: 1
+          if-no-files-found: error
