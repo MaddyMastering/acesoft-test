@@ -5,6 +5,7 @@ date: 2026-11-02T13:58:00.000+05:30
 description: Acesoft Labs is a 16-year IT staffing and technology partner across
   India, UAE and USA, offering staff augmentation, EOR, GCC staffing, cloud and
   AI services.
+video: https://youtu.be/c_EGNOcuz0Q?si=bsuLBfaC-O3ltH1x
 layout: blog-post.njk
 ---
 Every company that grows eventually runs into the same two problems. It needs the right people, and it needs technology that works. Most partners solve one of these. For 16 years, Acesoft Labs has been solving both.
