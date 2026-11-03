@@ -221,6 +221,7 @@
 
                 <li class="flex-center"><a href="../about-us.html">About Us</a></li>
                 <li class="flex-center"><a href="../career.html">Careers</a></li>
+                <li class="flex-center"><a href="../blog/index.html">Blog</a></li>
                 <li class="flex-center">
                     <button onclick="gotoContact()">
                         <img alt="image" loading="lazy" src="../images/icons/black-chevron-right.svg"
@@ -334,6 +335,7 @@
                                 </li>
                                 <li><a href="../about-us.html">About Us</a></li>
                                 <li><a href="../career.html">Career</a></li>
+                                <li><a href="../blog/index.html">Blog</a></li>
                                 <li class="on-smallest-device"><a onclick="gotoContact()">Contact Us</a></li>
                             </ul>
                         </div>
@@ -342,6 +344,16 @@
             </div>
         </nav>
     </header>
+
+    <div class="welcome-banner">
+        <div class="welcome-text">
+            <br />
+            <br />
+            <h1>Dreams whisper the future<br />act to make them speak</h1>
+            <br />
+            <br />
+        </div>
+    </div>
 
     <div class="container">
         <section id="blog-list">
@@ -353,7 +365,7 @@
                 const container = document.getElementById("blog-list");
 
                 try {
-                    const response = await fetch("/acesoft-test/blog-list.json");
+                    const response = await fetch("/blog-list.json");
 
                     if (!response.ok) {
                         throw new Error("Failed to load blog list");
@@ -373,7 +385,7 @@
                 </div> 
                 <div class="card-content">   
                 <h2>
-                    <a href="/acesoft-test${blog.url}">
+                    <a href="${blog.url}">
                         ${escapeHtml(blog.title)}
                     </a>
                 </h2>
@@ -384,7 +396,8 @@
                             ? `<p>${escapeHtml(blog.description)}</p>`
                             : ""}
 
-                <a href="/acesoft-test${blog.url}">Read more →</a>
+                <br />
+                <a href="${blog.url}">Read more →</a>
                 </div>
             </article>
         `).join("");
@@ -459,7 +472,7 @@
                     <div>
                         <div class="heading">USA</div>
                         <div class="content">
-                            <p><b>Acesoft Solution Inc</b>
+                            <p><b>Acesoft Solutions Inc</b>
                                 <br />16192, COASTAL HWYLEWES
                                 <br />DE 19958
                             </p>
