@@ -35,7 +35,7 @@
             border-radius: 16px;
             cursor: pointer;
             position: relative;
-            height: 350px;
+            height: 400px;
         }
 
         .blog-card:hover {
@@ -68,6 +68,16 @@
 
         .blog-card>.card-content>h2 {
             font-size: 1.25rem;
+            height: 48px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .blog-card>.card-content>h2>a {
+            display: inline-block;
+            height: 48px;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .blog-card>.card-content>p {
@@ -75,11 +85,51 @@
             margin: 10px 0;
         }
 
+        .blog-card>.card-content>.description {
+            max-height: 30px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
         .blog-card>.card-content>a {
             font-weight: bold;
             display: block;
             position: absolute;
             bottom: 16px;
+        }
+
+        @media (max-width: 1441px) {
+            #blog-list {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* hi-res laptops and desktops */
+        @media (max-width:1281px) {
+            #blog-list {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* big landscape tablets, laptops, and desktops */
+        @media (max-width:1025px) {
+            #blog-list {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* tablet, landscape iPad, lo-res laptops ands desktops */
+        @media (max-width:961px) {
+            #blog-list {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+        @media (max-width:641px) {
+            #blog-list {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -365,7 +415,7 @@
                 const container = document.getElementById("blog-list");
 
                 try {
-                    const response = await fetch("/acesoft-test/blog-list.json");
+                    const response = await fetch("https://maddymastering.github.io/acesoft-test/blog-list.json/");
 
                     if (!response.ok) {
                         throw new Error("Failed to load blog list");
@@ -393,7 +443,7 @@
                 ${blog.date ? `<p>${escapeHtml(blog.date)}</p>` : ""}
 
                 ${blog.description
-                            ? `<p>${escapeHtml(blog.description)}</p>`
+                            ? `<p class="description">${escapeHtml(blog.description)}</p>`
                             : ""}
 
                 <br />
