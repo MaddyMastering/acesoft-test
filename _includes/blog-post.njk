@@ -286,6 +286,19 @@
         <br />
         <article class="blog-content">
             {{ content | safe }}
+
+            <br />
+            <br />
+            {% if video %}
+                <div class="video-container">
+                <iframe
+                    src="{{ video }}"
+                    title="{{ title }}"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe>
+                </div>
+            {% endif %}
         </article>
     </main>
 

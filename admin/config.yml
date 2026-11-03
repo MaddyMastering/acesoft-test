@@ -34,6 +34,11 @@ collections:
         widget: "image"
         required: false
 
+      - label: "Video URL"
+        name: "video"
+        widget: "string"
+        required: false
+
       - label: "Layout"
         name: "layout"
         widget: "hidden"
